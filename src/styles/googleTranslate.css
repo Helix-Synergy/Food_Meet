@@ -1,0 +1,52 @@
+.goog-logo-link {
+  display: none !important;
+}
+ 
+.goog-te-gadget {
+  color: transparent !important;
+}
+.VIpgJd-ZVi9od-l4eHX-hSRGPd {
+  display: none !important;
+}
+ 
+#google_translate_element {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+ 
+  border: none;
+  background: transparent;
+ 
+  outline: none;
+  @apply w-[100px] h-[30px] text-sm mb-3 rounded border-0 border-one ;
+}
+ 
+#google_translate_element select {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+ 
+  border: none;
+  background: transparent;
+ 
+  outline: none;
+ 
+  @apply w-[150px] h-auto text-sm rounded border border-gray-300 text-center py-4 ;
+}
+
+
+#google_translate_element {
+  transform: scale(0.8); /* Adjust scale factor as needed */
+  /* transform-origin: top left;  */
+  /* margin-bottom: 0.5rem; */
+}
+ 
+#google_translate_element select {
+  font-size: 1rem !important; /* Tailwind text-xs */
+  height: 40px !important;
+  padding: 2px 4px !important;
+  color: #48734b !important;
+  border: .5px solid #48734b;
+  cursor: pointer;
+  /* padding: 6px 8px !important; */
+}
