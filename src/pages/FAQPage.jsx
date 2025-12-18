@@ -2,16 +2,16 @@ import React, { useState } from "react";
 
 const faqData = [
   {
-    question: "What is FOODMEET 2025?",
+    question: "What is FOODMEET 2026?",
     answer:
-      "FOODMEET 2025, officially known as the “World Agriculture & Food Science Conclave” (FOODMEET-2025), is a premier International conference organized by Helix Conferences. The event aims to bring together Food Science Professionals, Researchers, and Industry leaders to discuss and explore Advancements in Food Science & Technology.",
+      "FOODMEET 2026, officially known as the “Food Agriculture & Environmental Sciences” (FOODMEET-2026), is a premier International conference organized by Helix Conferences. The event aims to bring together Food Science Professionals, Researchers, and Industry leaders to discuss and explore Advancements in Food Science & Technology.",
   },
   {
-    question: "When and where will the FOODMEET 2025 take place?",
-    answer: "The conference will be held in Valencia, Spain from November 25–27, 2025.",
+    question: "When and where will the FOODMEET 2026 take place?",
+    answer: "The conference will be held in Valencia, Spain from April 23–24, 2026.",
   },
   {
-    question: "What are the highlights of FOODMEET 2025?",
+    question: "What are the highlights of FOODMEET 2026?",
     answer: [
       "Networking opportunities with Industry leaders and Food Science Professionals.",
       "Interactive Workshops and Sessions.",
@@ -67,7 +67,7 @@ const faqData = [
       "Presentation slots typically range from 15 to 25 minutes. Specific times will be assigned once your abstract is accepted.",
   },
   {
-    question: "Who will be attending the FOODMEET 2025?",
+    question: "Who will be attending the FOODMEET 2026?",
     answer:
       "This event is expected to attract a diverse group of professionals from the Global Food Science and Agriculture community.",
   },

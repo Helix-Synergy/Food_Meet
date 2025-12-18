@@ -24,10 +24,14 @@ const AboutUs = () => {
 
       {/* Text Content */}
       <div className="flex flex-col w-full md:w-2/3">
-        <h1 className="text-xl md:text-3xl font-bold my-2">
-          <span className="text-one">Health, Nutrition, and Agriculture:</span>{" "}
-          Building a Resilient Future
-        </h1>
+     <h1 className="text-xl md:text-3xl font-bold my-2">
+  <span className="text-one">Health, Nutrition, and </span>
+  <Link to="/global-foodmeet-summit-tracks" className="cursor-pointer hover:text-green-400">
+    Agriculture
+  </Link>
+  <span className="text-one">:</span>{" "}
+  Building a Resilient Future
+</h1>
 
         <div className="flex flex-col gap-3 mt-4">
           <div className="flex flex-row gap-2 items-start">
@@ -43,7 +47,7 @@ const AboutUs = () => {
                 target="_blank"
                 className="font-bold text-one"
               >
-                Global Events 2025,
+                Global Events 2026,
               </Link>
               brought to you by trusted International Conference Organizers.
               Whether you're a Researcher, policymaker, Academic, or Industry

@@ -8,7 +8,7 @@ import { useAnimation, motion } from 'framer-motion';
 const tracks = [
   {
     image: trackImages.FoodSecurity,
-    title: "Food Security",
+    title: "Food Security ",
     subtitle:
       "Ensuring Global Food Security: Strategies for a Sustainable Future",
     description:

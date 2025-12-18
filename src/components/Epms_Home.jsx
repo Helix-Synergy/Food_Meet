@@ -7,9 +7,15 @@ import { Link } from 'react-router-dom';
 const Epms_about = () => {
   return (
     <div className="flex flex-col px-4 md:px-12 py-8 min-h-[85vh] items-center justify-center my-8">
-      <h1 className="text-2xl md:text-3xl font-bold text-center">
-        FoodMeet - EPMs
-      </h1>
+<h1 className="text-2xl md:text-3xl font-bold text-center">
+  FoodMeet -{" "}
+  <Link
+    to="/event-partners"
+    className="hover:text-green-500"
+  >
+    EPMs
+  </Link>
+</h1>
       <p className="w-full md:w-2/3 my-2 text-center text-sm md:text-base text-slate-600">
         Renowned experts from across the globe sharing insights and leading the conversation at FoodMeet.
       </p>

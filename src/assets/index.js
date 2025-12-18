@@ -68,6 +68,29 @@ import {
   Flower2, 
   Globe
 } from 'react-bootstrap-icons';
+// --------------------------------------icons-----------------
+import img1 from "../assets/tracks/img1.png"
+import img2 from "../assets/tracks/img2.png"
+import img3 from "../assets/tracks/img3.png"
+import img4 from "../assets/tracks/img4.png"
+import img5 from "../assets/tracks/img5.png"
+import img6 from "../assets/tracks/img6.png"
+import img7 from "../assets/tracks/img7.png"
+import img8 from "../assets/tracks/img8.png"
+import img9 from "../assets/tracks/img9.png"
+import img10 from "../assets/tracks/img10.png"
+import img11 from "../assets/tracks/img11.png"
+import img12 from "../assets/tracks/img12.png"
+import img13 from "../assets/tracks/img13.png"
+import img14 from "../assets/tracks/img14.png"
+import img15 from "../assets/tracks/img15.png"
+import img16 from "../assets/tracks/img16.png"
+import img17 from "../assets/tracks/img17.png"
+import img18 from "../assets/tracks/img18.png"
+import img19 from "../assets/tracks/img19.png"
+import img20 from "../assets/tracks/img20.png"
+
+
 // 
 // -----------------------------------------------------------------------------------------
 import { IoFastFood } from "react-icons/io5"
@@ -195,7 +218,7 @@ export {
   HeartPulse,
 };
 
-// export const tracks = [
+
 //   {
 //     name: "Food Security",
 //     icon: FoodSecurity,
@@ -265,27 +288,30 @@ export {
 //     icon: "https://i.ibb.co/5ZCb8dL/agrobiodiversity.png",
 //   },
 // ];
+
+
+
 export const tracks = [
-  { name: "Food Security", icon: FoodSecurity },
-  { name: "Food Science & Technology", icon: FoodScienceTechnology },
-  { name: "Crop Sciences", icon: CropSciences },
-  { name: "Soil Science", icon: SoilScience },
-  { name: "Food Toxicology", icon: FoodToxicology },
-  { name: "Integrated Pest Management", icon: IntegratedManagement },
-  { name: "Sustainable Food Packaging", icon: SustainableFood },
-  { name: "AI in Food Production", icon: AIFoodProduction },
-  { name: "Food Safety & Traceability", icon: FoodSafety },
-  { name: "Nutraceuticals", icon: Nutraceuticals },
-  { name: "Personalized Nutrition", icon: PersonalizedNutrition },
-  { name: "Agriculture and Aquaculture", icon: AgricultureAquaculture },
-  { name: "Smart Irrigation Systems", icon: SmartIrrigationSystems },
-  { name: "Plant-Based Proteins", icon: PlantProteins },
-  { name: "Food Waste Reduction", icon: FoodWasteReduction },
-  { name: "Climate- Smart Agriculture", icon: ClimateAgriculture },
-  { name: "Agroforestry", icon: Agroforestry },
-  { name: "Dairy Production", icon:DairyProduction },
-  { name: "Horticulture", icon:Horticulture },
-  { name: "Agrobiodeversity", icon:Agrobiodeversity },
+  { name:"Integrated Pest & Disease Management (IPM) Strategies ", icon: img1 },
+  { name:"Smart Farming & Digital Agritech", icon:img2 },
+  { name:"Climate-Resilient Cropping", icon: img3 },
+  { name:"Food Microbiology", icon: img4},
+  { name:"Advanced Food Processing & Preservation Technologies", icon: img5 },
+  { name:"Nutrition Science & Public Health", icon: img6 },
+  { name:"Post-Harvest Technology", icon:img7  },
+  { name:"Sustainable Food Packaging", icon: img8 },
+  { name:"Environmental Ecology & Restoration Science", icon: img9 },
+  { name:"Pollution Monitoring & Control", icon: img10 },
+  { name:"Waste Management & Resource Recovery", icon: img11 },
+  { name:"Climate Change Science", icon: img12 },
+  { name:"Water Resource Management", icon: img13},
+  { name:"Environmental Impact Assessment (EIA)", icon:img14},
+  { name:"Plant Genetic Improvement & Stress Physiology", icon: img15 },
+  { name:"Biofertilizers & Biocontrol Agents", icon:img16},
+  { name:"Microbiomes & Ecosystem Functioning", icon:img17 },
+  { name:"Bioremediation, Bioenergy & Bio economy Innovations", icon:img18 },
+  { name:"AI in Food Production", icon:img19 },
+  { name:"Horticulture", icon:img20},
 ];
 export const schedule_plan1 = [
   {

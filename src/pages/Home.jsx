@@ -22,10 +22,14 @@ const Home = () => {
               </p>
             </div>
           </div>
-          <h1 className="text-4xl md:text-6xl my-2 w-full md:w-[90vw] md:leading-[70px]">
-          World Agriculture <span className="text-4xl text-one">&</span> Food Sciences Conclave
+          {/* <h6 className="text-xl md:text-6xl my-2 w-full md:w-[90vw] md:leading-[70px]">
+           Food Agriculture <span className="text-4xl text-one">&</span>  Environmental Sciences Forum
+       
 {/* logo.jpeg */}
-          </h1>
+          {/* </h6 > */} 
+          <h6 className="text-lg md:text-5xl my-2 w-full md:w-[90vw] md:leading-[50px]">
+  Food Agriculture <span className="text-3.5xl text-one">&</span> Environmental Sciences Forum
+</h6>
           <p className="text-2xl md:text-5xl">FOODMEET - 2026</p>
           {/* <p className="text-sm md:text-lg font-normal my-4 w-full md:w-1/2">
             There are many variations of passing available but the majority have

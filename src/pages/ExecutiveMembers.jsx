@@ -19,11 +19,18 @@ const ExecutiveMembers = () => {
         <h1 className="text-2xl sm:text-3xl font-bold mb-2">
           Meet Our Esteemed Executive Panel
         </h1>
-        <p className="w-full sm:w-11/12 md:w-2/3 text-sm sm:text-base text-slate-600">
-          Our executive panel comprises visionary leaders and industry pioneers
-          who bring deep expertise and strategic insight to guide our mission in
-          advancing global health innovation.
-        </p>
+      <p className="w-full sm:w-11/12 md:w-2/3 text-sm sm:text-base text-slate-600">
+  Our executive panel comprises visionary leaders and industry pioneers
+  who bring deep expertise and strategic insight to guide our mission in
+  advancing{" "}
+  <Link
+    to="/international-foodmeet-event-schedule"
+    className="hover:text-emerald-500 cursor-pointer transition-colors text-green-900"
+  >
+    global health innovation
+  </Link>
+  .
+</p>
       </div>
 
       {/* Panel Members Grid */}

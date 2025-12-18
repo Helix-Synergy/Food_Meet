@@ -1,6 +1,6 @@
 import React from "react";
 import { banner_style } from "../assets/styles";
-
+import { Link } from "react-router-dom";
 import {
   Leaf,
   Star,
@@ -133,7 +133,7 @@ const data = {
     location: "Barcelona,Spain",
     organizer: "Helix Conferences",
     description: [
-      "Helix Conferences warmly invites you to the World Agriculture & Food Science Conclave – FOODMEET 2025, taking place from November 25 to 27, 2025, in the vibrant city of Valencia, Spain. This groundbreaking event is dedicated to fostering Scientific Innovation and Discovery, with a focus on the theme, “Advancing Agricultural and Food Innovations for Global Sustainability.”",
+      "Helix Conferences warmly invites you to the Food Agriculture & Environmental Sciences Forum – FOODMEET 2026, taking place from November 25 to 27, 2026, in the vibrant city of Valencia, Spain. This groundbreaking event is dedicated to fostering Scientific Innovation and Discovery, with a focus on the theme, “Advancing Agricultural and Food Innovations for Global Sustainability.”",
       "The Summit provides a dynamic platform for Researchers, Industry Leaders, and Thought Pioneers to share insights and advancements in Agriculture and Food Sciences. Attendees can expect engaging discussions, Expert-Led Sessions, and valuable Networking Opportunities.",
     ],
   },
@@ -269,12 +269,18 @@ const AboutMediclave = () => {
           disciplines with a strong emphasis on Food and Agriculture.
         </p>
 
-        <p className="mb-6 text-lg leading-relaxed text-center w-full max-w-5xl">
-          Since our inception, we’ve helped thousands of professionals connect
-          through purposeful Conferences that foster Innovation, Partnerships,
-          and sustainable development. From Academic summits to Industry expos,
-          we curate experiences that go beyond borders.
-        </p>
+    <p className="mb-6 text-lg leading-relaxed text-center w-full max-w-5xl">
+  Since our inception, we’ve helped thousands of professionals connect
+  through purposeful Conferences that foster{" "}
+  <Link
+    to="/foodmeet-conference-orators"
+    className="hover:text-emerald-500 cursor-pointer transition-colors text-green-900"
+  >
+    Innovation
+  </Link>
+  , Partnerships, and sustainable development. From Academic summits to
+  Industry expos, we curate experiences that go beyond borders.
+</p>
       </div>
 
       {/* Themes Section */}

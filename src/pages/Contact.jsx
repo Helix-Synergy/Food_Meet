@@ -135,7 +135,7 @@ const ContactForm = () => {
     "18th Global Medical Conclave",
     "International Health Sciences Conclave",
     "World Environmental Medicine Summit",
-    "22nd World Agriculture & Food Sciences Conclave",
+    "22nd Food Agriculture & Environmental Sciences Forum",
     "Global Agricultural Technology Conclave",
     "International Food Technology Congress",
     "Global Physics Summit",
