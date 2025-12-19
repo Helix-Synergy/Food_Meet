@@ -14,7 +14,7 @@ const links = [
     id: 'brochure-download',
     icon: Download,
     label: 'Brochure download',
-    link: '/FOODMEET_BROCHURE.pdf'
+    link: '/FOODMEET_brochure.pdf'
   },
   {
     id: 'event-schedule',
@@ -56,25 +56,47 @@ const QuickLinks = () => {
         } ${id === 'mobile' ? 'animate-pulseShadow' : ''}`;
 
         // ✅ PDF download (native anchor)
+        // if (id === 'brochure-download') {
+        //   return (
+        //     <a
+        //       key={id}
+        //       href={href}
+        //       download
+        //       onMouseEnter={() => setHoveredId(id)}
+        //       onMouseLeave={() => setHoveredId(null)}
+        //       className={classes}
+        //     >
+        //       <div className="bg-one text-white p-3 flex items-center justify-center rounded-l-full">
+        //         <Icon className="h-5 w-5" />
+        //       </div>
+        //       <span className="ml-4 pr-4 text-sm font-medium text-gray-800 whitespace-nowrap">
+        //         {label}
+        //       </span>
+        //     </a>
+        //   );
+        // }
         if (id === 'brochure-download') {
-          return (
-            <a
-              key={id}
-              href={href}
-              download
-              onMouseEnter={() => setHoveredId(id)}
-              onMouseLeave={() => setHoveredId(null)}
-              className={classes}
-            >
-              <div className="bg-one text-white p-3 flex items-center justify-center rounded-l-full">
-                <Icon className="h-5 w-5" />
-              </div>
-              <span className="ml-4 pr-4 text-sm font-medium text-gray-800 whitespace-nowrap">
-                {label}
-              </span>
-            </a>
-          );
-        }
+  return (
+    <a
+      key={id}
+      href="/FOODMEET_brochure.pdf"
+      download="FOODMEET_brochure.pdf"
+      target="_self"
+      rel="noopener noreferrer"
+      onMouseEnter={() => setHoveredId(id)}
+      onMouseLeave={() => setHoveredId(null)}
+      className={classes}
+    >
+      <div className="bg-one text-white p-3 flex items-center justify-center rounded-l-full">
+        <Icon className="h-5 w-5" />
+      </div>
+      <span className="ml-4 pr-4 text-sm font-medium text-gray-800 whitespace-nowrap">
+        {label}
+      </span>
+    </a>
+  );
+}
+
 
         // ✅ Normal routes
         return (
