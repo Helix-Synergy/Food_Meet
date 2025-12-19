@@ -14,7 +14,7 @@ const links = [
     id: 'brochure-download',
     icon: Download,
     label: 'Brochure download',
-    link: '/FOODMEET_brochure.pdf'
+    link: '/foodmeet_brochure.pdf'
   },
   {
     id: 'event-schedule',
@@ -79,8 +79,8 @@ const QuickLinks = () => {
   return (
     <a
       key={id}
-      href="/FOODMEET_brochure.pdf"
-      download="FOODMEET_brochure.pdf"
+      href="/foodmeet_brochure.pdf"
+      download="foodmeet_brochure.pdf"
       target="_self"
       rel="noopener noreferrer"
       onMouseEnter={() => setHoveredId(id)}
