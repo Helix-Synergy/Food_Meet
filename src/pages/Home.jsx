@@ -28,7 +28,7 @@ const Home = () => {
 {/* logo.jpeg */}
           {/* </h6 > */} 
           <h6 className="text-lg md:text-5xl my-2 w-full md:w-[90vw] md:leading-[50px]">
-  Food,Agriculture <span className="text-3.5xl text-one">&</span> Environmental Sciences Forum
+  Food, Agriculture <span className="text-3.5xl text-one">&</span> Environmental Sciences Forum
 </h6>
           <p className="text-2xl md:text-5xl">FOODMEET - 2026</p>
           {/* <p className="text-sm md:text-lg font-normal my-4 w-full md:w-1/2">

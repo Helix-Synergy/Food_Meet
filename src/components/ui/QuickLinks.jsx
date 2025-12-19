@@ -46,76 +46,55 @@ const QuickLinks = () => {
   const [hoveredId, setHoveredId] = useState(null);
 
   return (
-    <>
-      <style>
-        {`
-        @keyframes pulseShadow {
-          0%, 100% {
-            box-shadow: 0 0 0 0 #48734b;
-          }
-          50% {
-            box-shadow: 0 0 20px 6px #48734b;
-          }
-        }
+    <div className="fixed bottom-8 right-0 z-50 flex flex-col space-y-3">
+      {links.map(({ id, icon: Icon, label, path, link }) => {
+        const isActive = hoveredId === id;
+        const href = path || link;
 
-        .animate-pulseShadow {
-          animation: pulseShadow 2s ease-in-out infinite;
-        }
+        const classes = `flex items-center bg-white shadow-md rounded-l-full overflow-hidden transform transition-all duration-300 ${
+          isActive ? 'translate-x-0' : 'translate-x-40'
+        } ${id === 'mobile' ? 'animate-pulseShadow' : ''}`;
 
-        .transition-custom {
-          transition: all 0.8s ease-in-out;
-        }
-      `}
-      </style>
-
-      <div className="fixed bottom-8 right-0 z-50 flex flex-col space-y-3">
-        {links.map(({ id, icon: Icon, label, path, link }) => {
-          const isActive = hoveredId === id;
-          const href = path || link;
-
-          const commonClasses = `flex items-center bg-white shadow-md rounded-l-full overflow-hidden transform transition-all duration-300 ${
-            isActive ? 'translate-x-0' : 'translate-x-40'
-          } ${id === 'mobile' ? 'animate-pulseShadow' : ''}`;
-
-          return id === 'brochure-download' ? (
+        // ✅ PDF download (native anchor)
+        if (id === 'brochure-download') {
+          return (
             <a
               key={id}
               href={href}
               download
-              target="_blank"
-              rel="noopener noreferrer"
               onMouseEnter={() => setHoveredId(id)}
               onMouseLeave={() => setHoveredId(null)}
-              className={commonClasses}
+              className={classes}
             >
-              <div className="bg-one text-white p-3 flex items-center justify-center rounded-l-full transition-custom">
+              <div className="bg-one text-white p-3 flex items-center justify-center rounded-l-full">
                 <Icon className="h-5 w-5" />
               </div>
               <span className="ml-4 pr-4 text-sm font-medium text-gray-800 whitespace-nowrap">
                 {label}
               </span>
             </a>
-          ) : (
-            <Link
-              key={id}
-              to={href}
-              target="_blank"
-              rel="noopener noreferrer"
-              onMouseEnter={() => setHoveredId(id)}
-              onMouseLeave={() => setHoveredId(null)}
-              className={commonClasses}
-            >
-              <div className="bg-one text-white p-3 flex items-center justify-center rounded-l-full transition-custom">
-                <Icon className="h-5 w-5" />
-              </div>
-              <span className="ml-4 pr-4 text-sm font-medium text-gray-800 whitespace-nowrap">
-                {label}
-              </span>
-            </Link>
           );
-        })}
-      </div>
-    </>
+        }
+
+        // ✅ Normal routes
+        return (
+          <Link
+            key={id}
+            to={href}
+            onMouseEnter={() => setHoveredId(id)}
+            onMouseLeave={() => setHoveredId(null)}
+            className={classes}
+          >
+            <div className="bg-one text-white p-3 flex items-center justify-center rounded-l-full">
+              <Icon className="h-5 w-5" />
+            </div>
+            <span className="ml-4 pr-4 text-sm font-medium text-gray-800 whitespace-nowrap">
+              {label}
+            </span>
+          </Link>
+        );
+      })}
+    </div>
   );
 };
 
