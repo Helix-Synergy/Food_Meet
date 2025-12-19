@@ -89,73 +89,90 @@ const ContactForm = () => {
     }
   };
 
-  const webinars = [
-    "World Gene Therapy Summit",
-    "Global Stemcell Meet",
-    "International Immunotherapy Conclave",
-    "International Biosensors Summit",
-    "Global Battery Tech Summit",
-    "World Bioelectronics Conclave",
-    "Global Vaccine Technology Summit",
-    "World Genomices Conclave",
-    "Global Proteomics Summit",
-    "Global Bigdata Summit",
-    "World Data Analytics Concalve",
-    "Global Block Chain Summit",
-    "Global Green Chemistry Conclave",
-    "World Biofuels Conclave",
-    "Global Fermentation Technology Summit",
-    "World Symposia on Food Chemistry",
-    "World Renewable Energy Conclave",
-    "Global Green Hydrogen Summit",
-    "International Quantum Computing Conclave",
-    "Global Biomechanics Summit",
-    "Global Cybersecurity Summit",
-    "Global Symposia on Metavers",
-    "International Machine Learning Summit",
-    "Global Conclave on Augmented Reality",
-    "Global Summit on Nano Engineering & Smart Technology",
-    "World Nano Summit",
-    "International Graphene Conclave",
-    "International Conference on Cloud Computing",
-    "International Artificial Intelligence & Robotics Conclave",
-    "Global Aerospace Engineering Conclave",
-  ];
+  // const webinars = [
+  //   "World Gene Therapy Summit",
+  //   "Global Stemcell Meet",
+  //   "International Immunotherapy Conclave",
+  //   "International Biosensors Summit",
+  //   "Global Battery Tech Summit",
+  //   "World Bioelectronics Conclave",
+  //   "Global Vaccine Technology Summit",
+  //   "World Genomices Conclave",
+  //   "Global Proteomics Summit",
+  //   "Global Bigdata Summit",
+  //   "World Data Analytics Concalve",
+  //   "Global Block Chain Summit",
+  //   "Global Green Chemistry Conclave",
+  //   "World Biofuels Conclave",
+  //   "Global Fermentation Technology Summit",
+  //   "World Symposia on Food Chemistry",
+  //   "World Renewable Energy Conclave",
+  //   "Global Green Hydrogen Summit",
+  //   "International Quantum Computing Conclave",
+  //   "Global Biomechanics Summit",
+  //   "Global Cybersecurity Summit",
+  //   "Global Symposia on Metavers",
+  //   "International Machine Learning Summit",
+  //   "Global Conclave on Augmented Reality",
+  //   "Global Summit on Nano Engineering & Smart Technology",
+  //   "World Nano Summit",
+  //   "International Graphene Conclave",
+  //   "International Conference on Cloud Computing",
+  //   "International Artificial Intelligence & Robotics Conclave",
+  //   "Global Aerospace Engineering Conclave",
+  // ];
 
   const hybridConferences = [
-    "International Pharmacectical Summit",
-    "World Pharmacy Conclave",
-    "Global Conclave on Forensic Sciences",
-    "World Nursing Summit",
-    "World Medical-Surgical Nursing Summit",
-    "International Critical Care Nursing Conclave",
-    "World Summit on Environmental Chemistry",
-    "International Conferences on Biochemistry",
-    "International Chemistry Conclave",
-    "18th Global Medical Conclave",
-    "International Health Sciences Conclave",
-    "World Environmental Medicine Summit",
-    "22nd Food Agriculture & Environmental Sciences Forum",
-    "Global Agricultural Technology Conclave",
-    "International Food Technology Congress",
-    "Global Physics Summit",
-    "International Material Sciences Summit",
-    "World Earth Science Summit",
-    "12th International Science & Technology Summit",
-    "International Conferences on Biomedical Engineering",
-    "World Summit on Industrial Engineering",
-    "Global Nanotechnology Summit",
-    "International Nanomaterials Conclave",
-    "World Nanomedicine Summit",
-    "Global Bioinformatics summit",
-    "World Biofuel Congress",
-    "International Biotechnology Conclave",
-    "Global Stem Cell & Regenerative Medicine Summit",
-    "World Summit on Artificial Intelligence in Healthcare",
-    "International Conference on Climate Engineering",
+    "Food, Agriculture & Environmental Sciences Forum",
+    "Food Microbiome Summit",
+    "Regenerative AgriTech Forum",
+    "Future FoodTech Expo",
+    "Millets & Climate-Resilient Agriculture Summit",
+    "Advanced Medical Practices Conclave",
+    "Digital Pathology & AI Diagnostics Congress",
+    "Precision Medicine Summit",
+    "Aesthetic Medicine & Cosmetic Innovation Summit",
+    "World Quantam Technology Summit",
+    "Zero-Trust Security & AI Defense Forum",
+    "Smart Materials, Nanotech & Advanced Manufacturing Congress",
+    "Advanced Materials & Clean Energy Forum",
+
+    "Advanced Pharmaceutical Sciences Forum",
+    "AI Drug Discovery Conclave",
+    "Cell & Gene Therapy Manufacturing Summit",
+    "Real-World Evidence & Pharma Access Forum",
+    " Nursing & Nurse Practices Conclave",
+    "AI & Digital Nursing Forum",
+    "Critical & Emergency Care Summit",
+    "Nursing Leadership & Workforce Excellence Congress",
+    
+     "Food, Agriculture & Environmental Sciences Forum",
+    "Food Microbiome Summit",
+    "Regenerative AgriTech Forum",
+    "Future FoodTech Expo",
+    "Millets & Climate-Resilient Agriculture Summit",
+    "Advanced Medical Practices Conclave",
+    "Digital Pathology & AI Diagnostics Congress",
+    "Precision Medicine Summit",
+    "Aesthetic Medicine & Cosmetic Innovation Summit",
+    "World Quantam Technology Summit",
+    "Zero-Trust Security & AI Defense Forum",
+    "Smart Materials, Nanotech & Advanced Manufacturing Congress",
+    "Advanced Materials & Clean Energy Forum",
+
+
+      "Advanced Pharmaceutical Sciences Forum",
+    "AI Drug Discovery Conclave",
+    "Cell & Gene Therapy Manufacturing Summit",
+    "Real-World Evidence & Pharma Access Forum",
+    " Nursing & Nurse Practices Conclave",
+    "AI & Digital Nursing Forum",
+    "Critical & Emergency Care Summit",
+    "Nursing Leadership & Workforce Excellence Congress",
+   
   ];
 
-  const infiniteWebinars = [...webinars, ...webinars];
+  // const infiniteWebinars = [...webinars, ...webinars];
   const infiniteHybridConferences = [...hybridConferences, ...hybridConferences];
 
   const listScrollAreaHeight = contactFormHeight
@@ -174,7 +191,7 @@ const ContactForm = () => {
         {/* Left Side - Webinars & Conferences */}
         <div className="w-full md:w-1/2 flex flex-col items-center justify-center px-4 py-8 bg-white border border-gray-200 rounded-xl shadow-lg">
           <h1 className="text-black text-3xl sm:text-4xl font-bold text-center">
-            Upcoming Conferences
+            Upcoming Conferences-2026
           </h1>
           <div
             className="w-full flex flex-col py-6 md:flex-row gap-6 "
@@ -183,7 +200,7 @@ const ContactForm = () => {
             // }}
           >
             {/* Webinars */}
-            <div className="w-full md:w-1/2 h-[70vh] bg-white border border-one shadow-md rounded-xl overflow-hidden">
+            {/* <div className="w-full md:w-1/2 h-[70vh] bg-white border border-one shadow-md rounded-xl overflow-hidden">
               <h2 className="bg-one text-white text-xl font-bold py-3 text-center z-10 relative">
                 Webinars
               </h2>
@@ -220,12 +237,12 @@ const ContactForm = () => {
                   ))}
                 </div>
               </div>
-            </div>
+            </div> */}
 
             {/* Hybrid Conferences */}
-            <div className="w-full md:w-1/2 bg-white border border-one shadow-md rounded-xl overflow-hidden h-[70vh]">
+            <div className="w-full md:w-100 bg-white border border-one shadow-md rounded-xl overflow-hidden h-[70vh]">
               <h2 className="bg-one/75 text-white text-xl font-bold py-3 text-center z-10 relative">
-                Hybrids
+           Conferences-2026
               </h2>
               <div
                 className="relative overflow-y-auto scrollbar-hide"

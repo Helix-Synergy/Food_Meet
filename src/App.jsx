@@ -53,7 +53,7 @@ function App() {
         <Route path="/venue" element={<Venue />} />
         <Route path="/about-world-foodmeet-conclave" element={<About />} />
         <Route path="/abstract-submission" element={<AbstractSubmission />} />
-        <Route path="/brochure-download" element={<BrochureDownload />} />
+        {/* <Route path="/brochure-download" element={<BrochureDownload />} /> */}
         <Route path="/faq" element={<FAQPage />} />
         <Route path="/global-foodmeet-summit-tracks" element={<RotatingLogos />} />
         <Route path="/event-partners" element={<SponsorshipPackages />} />

@@ -91,24 +91,26 @@ const AbstractSubmission = () => {
   };
 
   const presentationOptions = [
-    "Food Security",
-    "Food Science & Technology",
-    "Crop Sciences",
-    "Soil Science",
-    "Food Toxicology",
-    "Integrated Pest Management",
+    "Integrated Pest & Disease Management (IPM) Strategies",
+    "Smart Farming & Digital Agritech",
+    "Climate-Resilient Cropping",
+    "Food Microbiology",
+    "Advanced Food Processing & Preservation Technologies",
+    "Nutrition Science & Public Health",
+    "Post-Harvest Technology",
     "Sustainable Food Packaging",
+    "Environmental Ecology & Restoration Science",
+    "Pollution Monitoring & Control",
+    "Waste Management & Resource Recovery",
+    "Climate Change Science",
+    "Water Resource Management",
+    "Environmental Impact Assessment (EIA)",
+    "Plant Genetic Improvement & Stress Physiology",
+    "Biofertilizers & Biocontrol Agents",
+    "Microbiomes & Ecosystem Functioning",
+    "Bioremediation, Bioenergy & Bio economy Innovations",
     "AI in Food Production",
-    "Food Safety & Traceability",
-    "Nutraceuticals",
-    "Personalized Nutrition",
-    "Agriculture and Aquaculture",
-    "Smart Irrigation Systems",
-    "Plant-Based Proteins",
-    "Food Waste Reduction",
-    "Climate- Smart Agriculture",
-    "Agroforestry",
-    "Dairy Production",
+    "Horticulture"
   ];
 
   return (
