@@ -28,7 +28,7 @@ const Footer = () => {
           />
         </div>
         <p className="text-slate-200 text-sm px-4 md:px-8">
-          Innovations in FoodMeet: Connecting the World Through Knowledge and Innovation
+          " Connecting the World Through Knowledge and Innovation"
         </p>
       </div>
 

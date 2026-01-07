@@ -188,9 +188,10 @@ export const socialLinks = [
     id: "reddit",
     name: "Reddit",
     url: "https://www.reddit.com/user/Salty-Ad6381/",
-    icon: <RedditIcon size={18}/>, 
+    icon: <RedditIcon size={18} />,
   },
 ];
+// 
 export const WhatsAppIcon = ({ className }) => (
   <svg
     xmlns="http://www.w3.org/2000/svg"

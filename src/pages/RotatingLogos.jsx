@@ -171,7 +171,9 @@ const tracks = [
     description: (
       <>
         This track explores sustainable{" "}
-        <Link to={routes.register}>
+        <Link to={routes.register}    className="
+             hover:text-one hover:decoration-accent
+             transition-colors duration-300">
           {" "}
           Integrated Pest and Disease Management
         </Link>{" "}
@@ -191,7 +193,9 @@ const tracks = [
     description: (
       <>
         Smart Farming & Digital Agritech harnesses IoT, AI,{" "}
-        <Link to={routes.venue}> drones,</Link> and data analytics to optimize
+        <Link to={routes.venue} className="
+             hover:text-one hover:decoration-accent
+             transition-colors duration-300"> drones,</Link> and data analytics to optimize
         crop yields, reduce resource use, and enhance sustainability. This track
         explores precision agriculture, smart irrigation, farm automation,
         climate-resilient technologies, and digital platforms transforming
@@ -206,7 +210,9 @@ const tracks = [
     // subtitle: "Adaptive Farming Systems",
     description: (
       <>
-        <Link to={routes.home}>Climate-Resilient</Link> Cropping focuses on
+        <Link to={routes.home} className="
+             hover:text-one hover:decoration-accent
+             transition-colors duration-300">Climate-Resilient</Link> Cropping focuses on
         farming systems that withstand climate variability. It promotes
         drought-, flood-, and heat-tolerant crops, improved soil health,
         efficient water use, and adaptive agronomic practices to ensure stable
@@ -221,7 +227,9 @@ const tracks = [
     // subtitle: "Microbial Safety & Innovation",
     description: (
       <>
-        <Link to={routes.orators}>Food Microbiology</Link> explores
+        <Link to={routes.orators} className="
+             hover:text-one hover:decoration-accent
+             transition-colors duration-300">Food Microbiology</Link> explores
         microorganisms that impact food safety, quality, and innovation. The
         track covers foodborne pathogens, fermentation, probiotics, microbial
         detection methods, and control strategies supporting safe and nutritious
@@ -237,7 +245,9 @@ const tracks = [
     description: (
       <>
         {" "}
-        <Link to={routes.home}>
+        <Link to={routes.home} className="
+             hover:text-one hover:decoration-accent
+             transition-colors duration-300">
           Advanced Food Processing & Preservation Technologies
         </Link>{" "}
         explore innovative methods to enhance food safety, quality, and shelf
@@ -254,7 +264,9 @@ const tracks = [
     // subtitle: "Health & Policy",
     description: (
       <>
-        <Link to={routes.schedule}>Nutrition Science & Public Health</Link>{" "}
+        <Link to={routes.schedule} className="
+             hover:text-one hover:decoration-accent
+             transition-colors duration-300">Nutrition Science & Public Health</Link>{" "}
         explores how diet, food systems, and policies shape population health.
         The track focuses on preventing disease, promoting healthy behaviors,
         and improving <Link to={routes.about}>human health worldwide</Link>.
@@ -268,7 +280,9 @@ const tracks = [
     // subtitle: "Supply Chain Efficiency",
     description: (
       <>
-        Post-<Link to={routes.eventPartner}>Harvest Technology</Link> focuses on
+        Post-<Link to={routes.eventPartner} className="
+             hover:text-one hover:decoration-accent
+             transition-colors duration-300">Harvest Technology</Link> focuses on
         preserving quality, safety, and value after harvest.. It covers
         handling, storage, processing, packaging, transportation, and loss
         reduction techniques to extend shelf life, enhance marketability, ensure
@@ -288,7 +302,9 @@ const tracks = [
         through recyclable, biodegradable, and reusable materials. It supports
         food safety, extends shelf life, minimizes waste, and lowers carbon
         emissions while meeting consumer demand for{" "}
-        <Link to={routes.tracks}>eco-friendly </Link>, innovative, and
+        <Link to={routes.tracks} className="
+             hover:text-one hover:decoration-accent
+             transition-colors duration-300">eco-friendly </Link>, innovative, and
         cost-effective packaging solutions across the global food industry..
       </>
     ),
@@ -300,7 +316,9 @@ const tracks = [
     // subtitle: "Ecosystem Health",
     description: (
       <>
-        <Link to={routes.eventPartner}>
+        <Link to={routes.eventPartner} className="
+             hover:text-one hover:decoration-accent
+             transition-colors duration-300">
           {" "}
           Environmental Ecology & Restoration Science
         </Link>{" "}
@@ -320,7 +338,9 @@ const tracks = [
     description: (
       <>
         This track focuses on advanced technologies and strategies for
-        monitoring <Link to={routes.about}>environmental pollution</Link>. It
+        monitoring <Link to={routes.about} className="
+             hover:text-one hover:decoration-accent
+             transition-colors duration-300">environmental pollution</Link>. It
         covers air, water, and soil quality assessment, real-time sensing
         systems, data analytics, regulatory compliance, and innovative control
         measures aimed at reducing emissions, mitigating impacts, and promoting
@@ -336,7 +356,9 @@ const tracks = [
     // subtitle: "Circular Economy",
     description: (
       <>
-  Waste Management & Resource Recovery focuses on innovative strategies to reduce waste generation, improve recycling, and recover valuable resources. The track highlights circular economy models,<Link to={routes.contact}> advanced treatment technologies </Link>, policy frameworks, and sustainable practices that transform waste into energy, materials, and economic value while protecting the environment.
+  Waste Management & Resource Recovery focuses on innovative strategies to reduce waste generation, improve recycling, and recover valuable resources. The track highlights circular economy models,<Link to={routes.contact} className="
+             hover:text-one hover:decoration-accent
+             transition-colors duration-300"> advanced treatment technologies </Link>, policy frameworks, and sustainable practices that transform waste into energy, materials, and economic value while protecting the environment.
       </>
     ),
   },
@@ -347,7 +369,9 @@ const tracks = [
     // subtitle: "Climate Systems",
     description: (
       <>
-   Climate Change Science examines how greenhouse gases, land use, oceans, and solar energy influence Earth’s climate system. Using observations, models, and experiments, scientists identify causes, measure impacts, project future risks, and inform mitigation and adaptation strategies to protect ecosystems, economies, and  <Link to={routes.about}>human health worldwide </Link>through evidence-based policy and collaborative action.
+   Climate Change Science examines how greenhouse gases, land use, oceans, and solar energy influence Earth’s climate system. Using observations, models, and experiments, scientists identify causes, measure impacts, project future risks, and inform mitigation and adaptation strategies to protect ecosystems, economies, and  <Link to={routes.about} className="
+             hover:text-one hover:decoration-accent
+             transition-colors duration-300">human health worldwide </Link>through evidence-based policy and collaborative action.
       </>
     ),
   },
@@ -359,7 +383,9 @@ const tracks = [
     // subtitle: "Water Security",
     description: (
       <>
-        <Link to={routes.orators}>Water Resource Management</Link> focuses on
+        <Link to={routes.orators} className="
+             hover:text-one hover:decoration-accent
+             transition-colors duration-300">Water Resource Management</Link> focuses on
       sustainable planning, conservation, and equitable use of water resources. It addresses challenges such as scarcity, pollution, climate change, and growing demand through innovative technologies, policy frameworks, integrated watershed management, and community engagement to ensure long-term water security and resilience.
       </>
     ),
@@ -377,7 +403,9 @@ const tracks = [
         environmental, social, and economic effects of proposed projects before
         implementation. It supports informed decision-making by identifying
         risks, recommending mitigation measures, ensuring regulatory compliance,
-        and promoting <Link to={routes.orators}>sustainable development</Link>{" "}
+        and promoting <Link to={routes.orators} className="
+             hover:text-one hover:decoration-accent
+             transition-colors duration-300">sustainable development</Link>{" "}
         while balancing growth with environmental protection
       </>
     ),
@@ -388,7 +416,9 @@ const tracks = [
     // subtitle: "Crop Resilience",
     description: (
       <>
-      This track covers breeding, genomics, phenotyping, and stress signaling to improve tolerance to drought, heat, salinity, and pathogens, enabling sustainable productivity, climate adaptation, and <Link to={routes.schedule}> food security </Link> through innovative, translational research and interdisciplinary global collaborations worldwide.
+      This track covers breeding, genomics, phenotyping, and stress signaling to improve tolerance to drought, heat, salinity, and pathogens, enabling sustainable productivity, climate adaptation, and <Link to={routes.schedule} className="
+             hover:text-one hover:decoration-accent
+             transition-colors duration-300"> food security </Link> through innovative, translational research and interdisciplinary global collaborations worldwide.
       </>
     ),
   },
@@ -400,7 +430,9 @@ const tracks = [
     description: (
       <>
         This track promotes sustainable farming using{" "}
-        <Link to={routes.venue}>biofertilizers and biocontrol</Link> agents. Focused on enhancing soil fertility, promoting plant growth, and managing pests naturally, it highlights microbial solutions, innovative technologies, and eco-friendly strategies that reduce chemical dependency, improve crop yield, and support environmental conservation.
+        <Link to={routes.venue} className="
+             hover:text-one hover:decoration-accent
+             transition-colors duration-300">biofertilizers and biocontrol</Link> agents. Focused on enhancing soil fertility, promoting plant growth, and managing pests naturally, it highlights microbial solutions, innovative technologies, and eco-friendly strategies that reduce chemical dependency, improve crop yield, and support environmental conservation.
       </>
     ),
   },
@@ -412,7 +444,9 @@ const tracks = [
     // subtitle: "Soil & Microbes",
     description: (
       <>
-        This track delves into the role of microbial communities in maintaining ecosystem health and functionality. It covers microbial diversity, interactions, and their impact on nutrient cycling, soil fertility, plant productivity, and environmental sustainability, highlighting innovative  <Link to={routes.schedule}>research and technologies </Link>  that harness microbiomes for resilient and balanced ecosystems.
+        This track delves into the role of microbial communities in maintaining ecosystem health and functionality. It covers microbial diversity, interactions, and their impact on nutrient cycling, soil fertility, plant productivity, and environmental sustainability, highlighting innovative  <Link to={routes.schedule} className="
+             hover:text-one hover:decoration-accent
+             transition-colors duration-300">research and technologies </Link>  that harness microbiomes for resilient and balanced ecosystems.
 
       </>
     ),
@@ -425,7 +459,9 @@ const tracks = [
     description: (
       <>
         This track focuses on harnessing biological systems for environmental cleanup, sustainable energy, and economic growth. It highlights innovative approaches in bioremediation, biofuel production, and bio-based industries, emphasizing microbial and biotechnological solutions that promote environmental sustainability, resource efficiency, and the transition toward a circular {" "}
-        <Link to={routes.orators}>bioeconomy</Link>.
+        <Link to={routes.orators} className="
+             hover:text-one hover:decoration-accent
+             transition-colors duration-300">bioeconomy</Link>.
       </>
     ),
   },
@@ -437,7 +473,9 @@ const tracks = [
     description: (
       <>
         Discover how Artificial Intelligence (AI) is revolutionizing Food Production through smart analytics, robotics, and real-time monitoring. This track highlights machine learning in precision farming, supply chain optimization, and predictive maintenance. Participants will explore how AI enhances efficiency, reduces waste, and drives innovation across {" "}
-        <Link to={routes.tracks}>Agri-Food Systems</Link>, from seed to supermarket
+        <Link to={routes.tracks} className="
+             hover:text-one hover:decoration-accent
+             transition-colors duration-300">Agri-Food Systems</Link>, from seed to supermarket
      .
       </>
     ),
@@ -449,7 +487,9 @@ const tracks = [
     // subtitle: "Urban & Controlled Systems",
     description: (
       <>
-        <Link to={routes.register}>Horticulture</Link> focuses on the Science and Art of Plant Cultivation. Topics include Fruits, Vegetables, Flowers, and Ornamental Plants. The track emphasizes Urban Agriculture, Controlled Environment Systems, and Sustainable Practices. Attendees will gain insights into Food Security, Urban Planning, and Ecological Design, highlighting the growing importance of Horticultural Innovations in modern Agriculture worldwide.
+        <Link to={routes.register} className="
+             hover:text-one hover:decoration-accent
+             transition-colors duration-300">Horticulture</Link> focuses on the Science and Art of Plant Cultivation. Topics include Fruits, Vegetables, Flowers, and Ornamental Plants. The track emphasizes Urban Agriculture, Controlled Environment Systems, and Sustainable Practices. Attendees will gain insights into Food Security, Urban Planning, and Ecological Design, highlighting the growing importance of Horticultural Innovations in modern Agriculture worldwide.
       </>
     ),
   },
