@@ -29,7 +29,7 @@ import Agrobiodeversity from "./tracks/Agrobiodiversity.jpeg";
 
 import {
   Facebook,
-  Twitter,
+
   Instagram,
   Youtube,
   Linkedin,
@@ -37,6 +37,7 @@ import {
   Download,
   Send,
 } from "lucide-react";
+import { FaXTwitter } from "react-icons/fa6";
 // import FoodSecurity from "../assets/tracks/Food Security.jpeg";
 
 
@@ -162,9 +163,9 @@ export const socialLinks = [
   },
   {
     id: "twitter",
-    name: "Twitter (X)",
+    name: "X",
     url: "https://x.com/Helixconfe69272",
-    icon: <Twitter size={18} />,
+    icon: <FaXTwitter size={18} />,
   },
   {
     id: "instagram",

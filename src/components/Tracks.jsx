@@ -25,7 +25,7 @@ const TracksSection = () => {
           >
             <img
               src={icon}
-              alt=""
+              alt="Icon"
               className="h-8 w-8 object-contain shrink-0"
             />
             <p className="text-sm font-medium text-gray-800">
@@ -38,13 +38,13 @@ const TracksSection = () => {
       {/* CTA Buttons */}
       <div className="mt-10 md:mt-10 flex flex-col md:flex-row gap-4 justify-center">
         <Link to="/global-foodmeet-summit-tracks">
-          <button className="bg-one text-white px-6 md:px-4 py-2 rounded-full text-sm md:text-base w-full md:w-auto text-center">
+          <button    aria-label="ReadMore Button"className="bg-one text-white px-6 md:px-4 py-2 rounded-full text-sm md:text-base w-full md:w-auto text-center">
             Read More
           </button>
         </Link>
 
         <Link to="/abstract-submission">
-          <button className="border bg-black text-slate-100 px-6 md:px-4 py-2 rounded-full text-sm md:text-base w-full md:w-auto text-center">
+          <button    aria-label="Submit Abstract Button" className="border bg-black text-slate-100 px-6 md:px-4 py-2 rounded-full text-sm md:text-base w-full md:w-auto text-center">
             Submit Abstract
           </button>
         </Link>

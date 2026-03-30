@@ -19,9 +19,8 @@ const Orators = () => {
         <h2 className="text-2xl md:text-3xl font-bold mb-2">
           Meet Our Distinguished Orators
         </h2>
-        <p className="w-full md:w-2/3 text-sm md:text-base text-slate-600">
-          Renowned experts from across the globe sharing insights and leading
-          the conversation at Mediclave.
+        <p className="w-full md:w-2/3 text-sm md:text-base text-slate-600 text-justify">
+         Renowned experts from across the globe, sharing insights and leading the conversation at Food Meet.
         </p>
       </div>
 

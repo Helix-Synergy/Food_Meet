@@ -3,7 +3,7 @@ import React from "react";
 const SinglePanelMember = ({ name, image, from, about, bio }) => {
   return (
     <div className="flex flex-col">
-      <img src={image} alt="" />
+      <img src={image} alt="SinglePanelMember" />
       <div>
         <h1>{name}</h1>
         <p>{about}</p>

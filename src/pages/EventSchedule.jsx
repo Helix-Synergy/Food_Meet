@@ -11,7 +11,7 @@ const Schedule = () => {
       <section className="w-full 2xl:max-w-[1280px] mx-auto justify-center items-center text-center">
         <div className={`${banner_style} schedule-banner w-full`}>
           <h1 className="text-slate-100 text-3xl sm:text-5xl md:text-6xl font-bold px-4">
-            FoodMeet - 2026
+            FoodMeet - 2027 
           </h1>
         </div>
         <EventSchedule height={"auto"} name={"Download"} link={'/Food-meet-Schedule.pdf'}/>

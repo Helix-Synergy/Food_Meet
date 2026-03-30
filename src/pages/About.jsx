@@ -15,125 +15,14 @@ import {
   LineChart,
 } from "lucide-react";
 
-// const data = {
-//   event: {
-//     title: "About Event",
-//     date: "25–27 Nov 2025",
-//     location: "Valencia, Spain",
-//     organizer: "Helix Conferences",
-//     description: [
-//       "Helix Conferences warmly invites you to the World Agriculture & Food Science Conclave – FOODMEET 2025, taking place from November 25 to 27, 2025, in the vibrant city of Valencia, Spain. This groundbreaking event is dedicated to fostering scientific innovation and discovery, with a focus on the theme, “Advancing Agricultural and Food Innovations for Global Sustainability.”",
-//       "The summit provides a dynamic platform for researchers, industry leaders, and thought pioneers to share insights and advancements in agriculture and food sciences. Attendees can expect engaging discussions, expert-led sessions, and valuable networking opportunities.",
-//     ],
-//   },
-//   themes: [
-//     {
-//       icon: Leaf,
-//       title: "Sustainable Agriculture",
-//       description: "Practices for Ecological farming and sustainability.",
-//     },
-//     {
-//       icon: Corn,
-//       title: "Crop Diversity & Agroecology",
-//       description: "Enhancing Biodiversity and resilience in agriculture.",
-//     },
-//     {
-//       icon: FlaskConical,
-//       title: "Food Innovation & Safety",
-//       description: "Scientific Advancements in Food quality and safety.",
-//     },
-//     {
-//       icon: Sun,
-//       title: "Climate-Smart Agriculture",
-//       description: "Adaptation Strategies for a Changing Climate.",
-//     },
-//     {
-//       icon: Recycle,
-//       title: "Circular Economy in Agri-food",
-//       description: "Sustainable models for Waste and Resource management.",
-//     },
-//     {
-//       icon: Globe,
-//       title: "Global Food Security",
-//       description: "Strategies to Feed a growing population sustainably.",
-//     },
-//     {
-//       icon: Wheat,
-//       title: "Precision Agriculture",
-//       description: "Technology-driven solutions for Farm productivity.",
-//     },
-//     {
-//       icon: LineChart,
-//       title: "Blockchain & Supply Chain",
-//       description: "Transparency and efficiency in Agri-food logistics.",
-//     },
-//   ],
-//   audience: [
-//     "Agricultural Scientists & Researchers",
-//     "Food Technologists & Engineers",
-//     "Policy Makers & Government Officials",
-//     "Environmental Scientists",
-//     "Agri-tech Entrepreneurs",
-//     "Sustainable Development Professionals",
-//     "Students & Early-Career Researchers",
-//     "NGOs & International Development Agencies",
-//   ],
-//   highlights: [
-//     {
-//       title: "Keynote Speakers",
-//       description: "Renowned voices in agriculture and food science.",
-//     },
-//     {
-//       title: "Workshops & Seminars",
-//       description: "Hands-on learning and expert-led discussions.",
-//     },
-//     {
-//       title: "Exhibition",
-//       description: "Showcase of innovations in agri-food technology.",
-//     },
-//     {
-//       title: "Networking Opportunities",
-//       description: "Connect with global leaders in agri-food sectors.",
-//     },
-//     {
-//       title: "Sustainability Focus",
-//       description: "Programs aligned with UN SDGs for agriculture.",
-//     },
-//     {
-//       title: "Market Insights",
-//       description: "Explore trends and forecasts for agricultural markets.",
-//     },
-//     {
-//       title: "Collaboration Forums",
-//       description: "Facilitating joint ventures and partnerships.",
-//     },
-//     {
-//       title: "Accredited Learning",
-//       description: "Earn CPD/CME credits by attending the conferences.",
-//     },
-//   ],
-//   dates: {
-//     eventDate: "25th November",
-//     venue: "Valencia, Spain",
-//     registrationDeadline: "20th November",
-//   },
-//   callForPapers:
-//     "Researchers, scientists, and professionals in agriculture and food sciences are invited to submit abstracts and presentations. Share your innovations with a global audience to support sustainable development and food security.",
-//   registration: {
-//     note: "Early Bird Registration is Now Open!",
-//     general: "[Insert Price]",
-//     student: "[Insert Price]",
-//   },
-// };
-
 const data = {
   event: {
     title: "About Event",
-    date: "Apr 23-24 | 2026",
+    date: "Apr 26-27 | 2027",
     location: "Barcelona,Spain",
     organizer: "Helix Conferences",
     description: [
-      "Helix Conferences warmly invites you to the Food Agriculture & Environmental Sciences Forum – FOODMEET 2026, taking place from November 25 to 27, 2026, in the vibrant city of Valencia, Spain. This groundbreaking event is dedicated to fostering Scientific Innovation and Discovery, with a focus on the theme, “Advancing Agricultural and Food Innovations for Global Sustainability.”",
+      "Helix Conferences warmly invites you to the Food Agriculture & Environmental Sciences Forum – FOODMEET 2027, taking place from April 25 to 27, 2027, in the vibrant city of Barcelona,Spain. This groundbreaking event is dedicated to fostering Scientific Innovation and Discovery, with a focus on the theme, “Advancing Agricultural and Food Innovations for Global Sustainability.”",
       "The Summit provides a dynamic platform for Researchers, Industry Leaders, and Thought Pioneers to share insights and advancements in Agriculture and Food Sciences. Attendees can expect engaging discussions, Expert-Led Sessions, and valuable Networking Opportunities.",
     ],
   },
@@ -224,7 +113,7 @@ const data = {
     },
   ],
   dates: {
-    eventDate: "Apr 23-24 | 2026",
+    eventDate: "Apr 26-27 | 2027",
     venue: "Barcelona | Spain",
     registrationDeadline: "16th April",
   },
@@ -254,7 +143,7 @@ const AboutMediclave = () => {
           <strong>{data.event.date}</strong> | {data.event.location}
         </p>
 
-        <p className="mb-6 text-lg leading-relaxed text-center w-full max-w-5xl text-center">
+        <p className="mb-6 text-lg leading-relaxed text-center w-full max-w-5xl text-center text-justify">
           At Helix Conferences, we are passionate about bringing people together
           to share Knowledge, drive Innovation, and solve Global Challenges. As
           experienced{" "}
@@ -269,18 +158,18 @@ const AboutMediclave = () => {
           disciplines with a strong emphasis on Food and Agriculture.
         </p>
 
-    <p className="mb-6 text-lg leading-relaxed text-center w-full max-w-5xl">
-  Since our inception, we’ve helped thousands of professionals connect
-  through purposeful Conferences that foster{" "}
-  <Link
-    to="/foodmeet-conference-orators"
-    className="hover:text-emerald-500 cursor-pointer transition-colors text-green-900"
-  >
-    Innovation
-  </Link>
-  , Partnerships, and sustainable development. From Academic summits to
-  Industry expos, we curate experiences that go beyond borders.
-</p>
+        <p className="mb-6 text-lg leading-relaxed text-center w-full max-w-5xl text-justify">
+          Since our inception, we’ve helped thousands of professionals connect
+          through purposeful Conferences that foster{" "}
+          <Link
+            to="/foodmeet-conference-orators"
+            className="hover:text-emerald-500 cursor-pointer transition-colors text-green-900"
+          >
+            Innovation
+          </Link>
+          , Partnerships, and sustainable development. From Academic summits to
+          Industry expos, we curate experiences that go beyond borders.
+        </p>
       </div>
 
       {/* Themes Section */}

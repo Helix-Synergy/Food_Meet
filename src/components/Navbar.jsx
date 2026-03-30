@@ -89,29 +89,34 @@ const Navbar = () => {
         </div>
 
         {/* Desktop Navigation - large screens only */}
-        <nav
-          className={`hidden lg:flex items-center text-md ${
-            scrolled ? "gap-8 ml-4" : "gap-6 ml-8"
-          }`}
-        >
-          {nav_links.map((item, index) => (
-            <Link
-              key={index}
-              to={item.link}
-              className={`hover-underline-animation text-gray-700 hover:text-one transition ${
-                location.pathname === item.link
-                  ? "border-slate-700"
-                  : "border-transparent"
-              }`}
-              style={{
-                marginRight: scrolled ? "0px" : "2px",
-              }}
-            >
-              {item.name}
-            </Link>
-          ))}
-        </nav>
-
+        {/* Desktop Navigation - large screens only */}
+             {/* Desktop Navigation */}
+    {/* Desktop Navigation */}
+<nav
+  className={`hidden md:flex items-center text-md ${
+    scrolled ? "gap-8 ml-4" : "gap-6 ml-8"
+  }`}
+>
+  {nav_links.map((item, index) => {
+    const isActive = location.pathname === item.link; // check if this is the current page
+    return (
+      <Link
+        key={index}
+        to={item.link}
+        className={`text-gray-700 transition relative ${
+          isActive
+            ? "text-accent after:absolute after:left-0 after:bottom-0 after:w-full after:h-0.5 after:bg-one after:rounded" // underline for active page
+            : "hover-underline-animation"
+        }`}
+        style={{
+          marginRight: scrolled ? "0px" : "2px",
+        }}
+      >
+        {item.name}
+      </Link>
+    );
+  })}
+</nav>
         {/* Desktop Right Section - large screens only */}
         <div className="hidden lg:flex items-center gap-5">
           <div className="flex items-center gap-1">
@@ -133,7 +138,7 @@ const Navbar = () => {
 
         {/* Mobile/Tablet Burger Menu Button */}
         <div className="lg:hidden ml-auto z-300">
-          <button onClick={() => setIsOpen(!isOpen)}>
+          <button   aria-label="Button for X" onClick={() => setIsOpen(!isOpen)}>
             {isOpen ? <X className="w-6 h-6" /> : <Menu className="w-6 h-6" />}
           </button>
         </div>

@@ -28,7 +28,7 @@ const Footer = () => {
           />
         </div>
         <p className="text-slate-200 text-sm px-4 md:px-8">
-          " Connecting the World Through Knowledge and Innovation"
+          "Connecting the World Through Knowledge and Innovation"
         </p>
       </div>
 
@@ -93,12 +93,12 @@ const Footer = () => {
             <p>hello@helixconferences.com</p>
           </div>
           <div className="flex flex-row gap-2 items-start md:justify-start px-4 md:px-0">
-            <MapPin size="44" />
+            <MapPin size="30" />
+
             <p>
-              Helix Conferences LLC,
+          1200 West 73rd Avenue #1100, Vancouver, British Columbia‎, Canada
               <br />
-               45573 Shepard Drive, Suit#101, <br/>Sterling,
-              Virginia-20164, USA
+              
             </p>
           </div>
         </div>

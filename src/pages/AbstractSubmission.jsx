@@ -283,6 +283,7 @@ const AbstractSubmission = () => {
         </div>
 
         <button
+          aria-label="Submit Abstract Button"
           type="submit"
           disabled={loading}
           className="bg-one text-white px-4 py-2 rounded"
@@ -290,7 +291,7 @@ const AbstractSubmission = () => {
           {loading ? "Submitting..." : "Submit Abstract"}
         </button>
 
-        <button className="bg-one ml-2 px-4 py-2 rounded">
+        <button   aria-label="Download Demo Abstract" className="bg-one ml-2 px-4 py-2 rounded">
           <a href="/sample_abstract.pdf" download="" className="text-white">
             Download Demo Abstract
           </a>

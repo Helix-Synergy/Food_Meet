@@ -102,7 +102,7 @@ const SponsorshipPackages = () => {
               <div className="bg-one/50 rounded-tl-xl rounded-br-full mb-2 p-2 flex flex-row items-center">
                 <img
                   src={pkg.badge}
-                  alt=""
+                  alt="Package Badge"
                   className="object-contain w-16 h-16"
                 />
                 <h2 className="text-2xl font-semibold text-one">
@@ -121,7 +121,7 @@ const SponsorshipPackages = () => {
               </ul>
             </div>
             <Link to='https://helixconferences.com/buy-a-ticket' target="_blank">
-              <button className="w-auto bg-one text-white px-8 py-2 rounded-full my-8">
+              <button  aria-label="Become a partner" className="w-auto bg-one text-white px-8 py-2 rounded-full my-8">
                 Become a Partner
               </button>
             </Link>
@@ -138,7 +138,7 @@ const SponsorshipPackages = () => {
                <div className="bg-one/50 rounded-tl-xl rounded-br-full mb-2 p-2 flex flex-row items-center">
                 <img
                   src={pkg.badge}
-                  alt=""
+                  alt="Package Badge"
                   className="object-contain w-16 h-16"
                 />
                 <h2 className="text-2xl font-semibold text-one ">
@@ -165,7 +165,7 @@ const SponsorshipPackages = () => {
             </div>
 
             <Link to="https://helixconferences.com/buy-a-ticket" target="_blank">
-              <button className="w-auto bg-one text-white px-8 py-2 rounded-full my-8">
+              <button   aria-label="Become a partner"  className="w-auto bg-one text-white px-8 py-2 rounded-full my-8">
                 Become a Partner
               </button>
             </Link>

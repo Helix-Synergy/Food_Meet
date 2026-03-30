@@ -287,7 +287,7 @@ const tracks = [
         handling, storage, processing, packaging, transportation, and loss
         reduction techniques to extend shelf life, enhance marketability, ensure
         food security, and improve farmers’ income through efficient
-        post-harvest management systems
+        post-harvest management systems.
       </>
     ),
   },
@@ -305,7 +305,7 @@ const tracks = [
         <Link to={routes.tracks} className="
              hover:text-one hover:decoration-accent
              transition-colors duration-300">eco-friendly </Link>, innovative, and
-        cost-effective packaging solutions across the global food industry..
+        cost-effective packaging solutions across the global food industry.
       </>
     ),
   },
@@ -406,7 +406,7 @@ const tracks = [
         and promoting <Link to={routes.orators} className="
              hover:text-one hover:decoration-accent
              transition-colors duration-300">sustainable development</Link>{" "}
-        while balancing growth with environmental protection
+        while balancing growth with environmental protection.
       </>
     ),
   },
@@ -475,8 +475,7 @@ const tracks = [
         Discover how Artificial Intelligence (AI) is revolutionizing Food Production through smart analytics, robotics, and real-time monitoring. This track highlights machine learning in precision farming, supply chain optimization, and predictive maintenance. Participants will explore how AI enhances efficiency, reduces waste, and drives innovation across {" "}
         <Link to={routes.tracks} className="
              hover:text-one hover:decoration-accent
-             transition-colors duration-300">Agri-Food Systems</Link>, from seed to supermarket
-     .
+             transition-colors duration-300">Agri-Food Systems</Link>, from seed to supermarket.
       </>
     ),
   },
@@ -564,7 +563,7 @@ const ScrollingTracks = () => {
                 <h3 className="text-xl text-gray-600 font-semibold mb-3">
                   {track.subtitle}
                 </h3>
-                <p className="text-md text-gray-800 leading-relaxed">
+                <p className="text-md text-gray-800 leading-relaxed text-justify">
                   {track.description}
                 </p>
               </div>

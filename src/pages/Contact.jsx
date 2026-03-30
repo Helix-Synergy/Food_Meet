@@ -191,7 +191,7 @@ const ContactForm = () => {
         {/* Left Side - Webinars & Conferences */}
         <div className="w-full md:w-1/2 flex flex-col items-center justify-center px-4 py-8 bg-white border border-gray-200 rounded-xl shadow-lg">
           <h1 className="text-black text-3xl sm:text-4xl font-bold text-center">
-            Upcoming Conferences-2026
+            Upcoming Conferences-2026 & 2027
           </h1>
           <div
             className="w-full flex flex-col py-6 md:flex-row gap-6 "
@@ -242,7 +242,7 @@ const ContactForm = () => {
             {/* Hybrid Conferences */}
             <div className="w-full md:w-100 bg-white border border-one shadow-md rounded-xl overflow-hidden h-[70vh]">
               <h2 className="bg-one/75 text-white text-xl font-bold py-3 text-center z-10 relative">
-           Conferences-2026
+           Conferences-2026 & 2027
               </h2>
               <div
                 className="relative overflow-y-auto scrollbar-hide"
@@ -356,6 +356,7 @@ const ContactForm = () => {
             />
 
             <button
+              aria-label="Submit Contact Form"
               type="submit"
               className="bg-one w-[120px] self-center text-white px-6 py-2 rounded-lg hover:opacity-80 transition"
               disabled={loading}

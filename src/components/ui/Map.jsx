@@ -31,7 +31,7 @@ export default function Map() {
           <p className="mb-4">
             Spain’s third-largest city blends Gothic charm with futuristic innovation. With
             mild October weather (17°C–26°C / 63°F–79°F), minimal rain, and rich culture,
-            Valencia is the perfect venue for Mediclave.
+            Valencia is the perfect venue for FoodMeet
           </p>
           <ul className="list-disc list-inside space-y-1">
             <li>Fallas Festival preparations</li>

@@ -66,7 +66,7 @@ const Partners = () => {
         </div>
       </div>
 
-      <Link to='/event-partners'><button className="mt-10 bg-black text-white py-2 px-6 rounded-full">
+      <Link to='/event-partners'><button   aria-label="Become a Partner" className="mt-10 bg-black text-white py-2 px-6 rounded-full">
         Become a Partner
       </button></Link>
     </div>

@@ -104,6 +104,7 @@ const FakeContactForm = () => {
       </div>
 
       <button
+        aria-label="Submit Form"
         type="submit"
         className="bg-black text-white px-4 py-4 rounded-xl flex w-full text-center items-center justify-center"
       >

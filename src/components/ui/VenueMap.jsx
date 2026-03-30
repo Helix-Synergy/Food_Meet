@@ -60,7 +60,7 @@ const VenueMap = () => {
         <MapContainer center={position} zoom={15} scrollWheelZoom={true} className="h-full w-full">
           <TileLayer url={tileURL} attribution="&copy; CartoDB contributors" />
           <Marker position={position} icon={greenIcon}>
-            <Popup>Food 2026 Venue</Popup>
+            <Popup>Food 2027 Venue</Popup>
           </Marker>
         </MapContainer>
       </div>

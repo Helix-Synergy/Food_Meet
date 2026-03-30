@@ -70,7 +70,7 @@ const Venue = () => {
 
       {/* CTA Button */}
       <a href="/venue">
-        <button className="bg-one px-10 md:px-20 py-2 rounded-full mt-6 text-sm md:text-base hover:bg-one transition">
+        <button    aria-label="View All" className="bg-one px-10 md:px-20 py-2 rounded-full mt-6 text-sm md:text-base hover:bg-one transition">
           View All
         </button>
       </a>

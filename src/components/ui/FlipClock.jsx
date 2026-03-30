@@ -50,7 +50,7 @@ const FlipClock = () => {
   }, []);
 
   // Set countdown to November 10 of the current year
-  const targetDate = new Date(new Date().getFullYear(), 10, 25); // November is month 10 (0-indexed)
+  const targetDate = new Date(2027, 3, 26); // November is month 10 (0-indexed)
 
   return (
     <div className="md:w-full md:p-2 rounded-xl flex items-center justify-center">

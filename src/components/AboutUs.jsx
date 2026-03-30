@@ -39,7 +39,7 @@ const AboutUs = () => {
               size={24}
               className="text-one flex-shrink-0 mt-1"
             />
-            <p className="text-sm md:text-base">
+            <p className="text-sm md:text-base text-justify">
               Welcome to the Hub of Global Conferences & Food-Agriculture
               Events. Explore the world’s most impactful{" "}
               <Link
@@ -47,10 +47,9 @@ const AboutUs = () => {
                 target="_blank"
                 className="font-bold text-one"
               >
-                Global Events 2026,
+                Global Events 2027,
               </Link>
-              brought to you by trusted International Conference Organizers.
-              Whether you're a Researcher, policymaker, Academic, or Industry
+              brought to you by trusted International Conference Organizers.Whether you're a Researcher,policymaker,Academic, or Industry
               Leader, our platform connects you to transformative events across
               the globe. We specialize in curating and promoting Food &
               Agriculture conferences, alongside a wide spectrum of

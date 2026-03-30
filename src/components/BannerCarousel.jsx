@@ -63,12 +63,14 @@ const Carousel = () => {
       {/* Navigation buttons */}
       <button
         onClick={goToPrevious}
+          aria-label="Go to previous slide"
         className="absolute top-1/2 left-2 transform -translate-y-1/2 bg-black/50 text-white p-2 sm:p-3 rounded-full hover:bg-black"
       >
         ❮
       </button>
       <button
         onClick={goToNext}
+          aria-label="Go to next slide"
         className="absolute top-1/2 right-2 transform -translate-y-1/2 bg-black/50 text-white p-2 sm:p-3 rounded-full hover:bg-black"
       >
         ❯

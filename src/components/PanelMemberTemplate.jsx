@@ -19,6 +19,7 @@ const PanelMemberTemplate = (item) => {
           src={item.image}
           alt={item.name}
           className="w-68 h-68 object-cover rounded-full bg-gray-100"
+          
         />
       </div>
       <div className="relative mt-28 flex flex-col items-center">

@@ -8,8 +8,8 @@ const EventSchedule = ({ height, name, link }) => {
   const [loading, setLoading] = useState(true);
 
   const dayButtons = [
-    { day: 1, label: "23", label2: ' Day' },
-    { day: 2, label: "24", label2: ' Day' },
+    { day: 1, label: "26", label2: ' Day' },
+    { day: 2, label: "27", label2: ' Day' },
     // { day: 3, label: "27", label2: ' Day', weekday: "Thursday" },
   ];
 
@@ -41,6 +41,7 @@ const EventSchedule = ({ height, name, link }) => {
         {dayButtons.map(({ day, label, label2, weekday, index }) => (
           <button
             key={day}
+              aria-label="button to select day"
             onClick={() => setSelectedDay(day)}
             className={`flex items-center gap-2 px-4 py-3 rounded-full border text-sm transition-all ${
               selectedDay === day
@@ -80,7 +81,7 @@ const EventSchedule = ({ height, name, link }) => {
           </a>
         ) : (
           <Link to={link}> */}
-            <button className="bg-one text-white px-10 md:px-10 py-2 rounded-full mt-10 text-sm md:text-base">
+            <button   aria-label="Button for Download" className="bg-one text-white px-10 md:px-10 py-2 rounded-full mt-10 text-sm md:text-base">
                 Download  </button>
               {/* {name}
          

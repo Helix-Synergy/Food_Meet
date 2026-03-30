@@ -16,7 +16,7 @@ const Home = () => {
           <div className="flex flex-row items-center gap-4">
             <h1 className="text-one text-5xl md:text-6xl">April</h1>
             <div className="flex flex-col items-start">
-              <p className="text-base md:text-lg font-normal">23-24 | 2026</p>
+              <p className="text-base md:text-lg font-normal">26-27 | 2027</p>
               <p className="text-base md:text-lg gap-2 flex flex-row font-normal">
             Barcelona | Spain
               </p>
@@ -30,7 +30,7 @@ const Home = () => {
           <h6 className="text-lg md:text-5xl my-2 w-full md:w-[90vw] md:leading-[50px]">
   Food, Agriculture <span className="text-3.5xl text-one">&</span> Environmental Sciences Forum
 </h6>
-          <p className="text-2xl md:text-5xl">FOODMEET - 2026</p>
+          <p className="text-2xl md:text-5xl">FOODMEET - 2027</p>
           {/* <p className="text-sm md:text-lg font-normal my-4 w-full md:w-1/2">
             There are many variations of passing available but the majority have
             suffered alteration in some from by injected humour.
