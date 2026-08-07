@@ -57,7 +57,7 @@ const AbstractSubmission = () => {
       });
 
       await axios.post(
-        "https://backend-code-6vqy.onrender.com/abstract-submission",
+        `${process.env.REACT_APP_BACKEND_URL}/abstract-submission`,
         formData,
         {
           headers: { "Content-Type": "multipart/form-data" },

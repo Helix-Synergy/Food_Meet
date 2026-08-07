@@ -6,7 +6,7 @@ import { banner_style } from "../assets/styles";
 
 const Orators = () => {
   return (
-    <section className="w-full 2xl:max-w-[1280px] mx-auto justify-center items-center text-center">
+    <section className="w-full  mx-auto justify-center items-center text-center">
       {/* Banner Section */}
       <div className={`${banner_style} orators-banner w-full`}>
         <h1 className="text-slate-100 text-3xl sm:text-5xl md:text-6xl font-bold px-4">

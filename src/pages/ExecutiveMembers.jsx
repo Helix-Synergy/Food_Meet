@@ -6,7 +6,7 @@ import { banner_style } from "../assets/styles";
 
 const ExecutiveMembers = () => {
   return (
-    <div className="w-full 2xl:max-w-[1280px] mx-auto justify-center items-center text-center">
+    <div className="w-full  mx-auto justify-center items-center text-center">
       {/* Banner Section */}
       <div className={`${banner_style} executive-panel-banner`}>
         <h1 className="text-slate-100 text-3xl sm:text-5xl md:text-6xl font-bold px-4 max-w-screen-lg mx-auto leading-tight">

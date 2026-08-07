@@ -1,17 +1,17 @@
 
-import ana from './orators/ana.jpg'
-// import zacharoula from './orators/Andreopoulou-Zacharoula.jpg'
-import annette from './orators/annette.jpg'
-import craig from './orators/craig.jpg'
-import francesco from './orators/francesco.jpg'
-import marly from './orators/marly.jpg'
-import shlomo from './orators/shlomopic.png'
+import ana from './orators/ana.webp'
+// import zacharoula from './orators/Andreopoulou-Zacharoula.webp'
+import annette from './orators/annette.webp'
+import craig from './orators/craig.webp'
+import francesco from './orators/francesco.webp'
+import marly from './orators/marly.webp'
+import shlomo from './orators/shlomopic.webp'
 
-import shlomo_banner from './orator_banners/shlomo.jpg'
-import ana_banner from './orator_banners/ana.jpg'
-import craig_banner from './orator_banners/craig.jpg'
-import annette_banner from './orator_banners/annette.jpg'
-import marly_banner from './orator_banners/marly.jpg'
+import shlomo_banner from './orator_banners/shlomo.webp'
+import ana_banner from './orator_banners/ana.webp'
+import craig_banner from './orator_banners/craig.webp'
+import annette_banner from './orator_banners/annette.webp'
+import marly_banner from './orator_banners/marly.webp'
 
 export const in_about_panel_members_data = [
  {

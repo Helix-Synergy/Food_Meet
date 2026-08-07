@@ -1,13 +1,12 @@
 import React from "react";
 import VenueMap from "../components/ui/VenueMap";
-import { MapPin, PlaneIcon, Star } from "lucide-react";
-import { visit_places } from "../assets";
+import { MapPin } from "lucide-react";
 import { banner_style } from "../assets/styles";
 
 const Venue = () => {
   return (
-    <div className="w-full 2xl:max-w-[1280px] mx-auto justify-center items-center text-center lg:mb-12">
-      <div className={`${banner_style} venue-banner w-[90%] mx-auto`}>
+    <div className="w-full  mx-auto justify-center items-center text-center lg:mb-12">
+      <div className={`${banner_style} venue-banner w-full mx-auto`}>
                 <h1 className="text-slate-100 text-3xl sm:text-5xl md:text-6xl font-bold px-4">
                   Our Venue
                 </h1>
@@ -31,9 +30,9 @@ const Venue = () => {
       </div>
 
       <div className="flex flex-col lg:flex-row items-center my-6 gap-6 justify-center">
-        <div className="lg:w-[40vw]">
+        <div className="lg:w-[40vw] max-w-2xl">
           <img
-            src="https://static-resources-elementor.mirai.com/wp-content/uploads/sites/1396/restaurante-home-rooftop.jpg"
+            src="https://images.unsplash.com/photo-1497366216548-37526070297c?q=80&w=2069&auto=format&fit=crop"
             alt="Venue"
             className="w-full sm:w-34 md:w-full lg:w-full h-[30vh] md:h-[40vh] lg:h-[50vh] object-cover rounded-xl"
           />

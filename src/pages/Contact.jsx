@@ -1,4 +1,4 @@
-import React, { useState, useRef, useEffect } from "react";
+import React, { useState, useRef, useEffect } from "react";
 import axios from "axios";
 import { banner_style } from "../assets/styles";
 
@@ -10,7 +10,7 @@ const ContactForm = () => {
     phone: "",
     company: "",
     message: "",
-    websiteDomain: "", // <-- ADDED: New field for the website domain
+    websiteDomain: "",
   });
 
   const [loading, setLoading] = useState(false);
@@ -51,7 +51,7 @@ const ContactForm = () => {
       }
 
       const response = await axios.post(
-        "https://backend-code-6vqy.onrender.com/contact",
+        `${process.env.REACT_APP_BACKEND_URL}/contact`,
         formData, // <-- CHANGED: Send FormData instead of raw form object
         { 
           // <-- CHANGED: Content-Type header to multipart/form-data
@@ -180,9 +180,16 @@ const ContactForm = () => {
     : "400px";
 
   return (
-    <div className="w-full 2xl:max-w-[1280px] mx-auto justify-center items-center text-center">
-      <div className={`${banner_style} contact-banner mx-auto `}> {/* Changed to style prop if banner_style is an object */}
-        <h1 className="text-slate-100 text-3xl sm:text-5xl md:text-6xl font-bold">
+    <div className="w-full mx-auto justify-center items-center text-center">
+      <div
+        className={`${banner_style} w-full mx-auto event-partners-banner`}
+        style={{
+          backgroundImage: "url('https://images.unsplash.com/photo-1423666639041-f56000c27a9a?q=80&w=2074&auto=format&fit=crop')",
+          backgroundSize: "cover",
+          backgroundPosition: "center",
+        }}
+      >
+        <h1 className="text-slate-100 text-3xl sm:text-5xl md:text-6xl font-bold px-4">
           Contact Us
         </h1>
       </div>

@@ -1,8 +1,9 @@
 import React, { useState, useEffect } from "react";
 import { banner_images } from "../assets";
-import one from "../assets/Banners1/one.jpg";
-import img2 from "../assets/Banners1/img2.jpg";
-import img3 from "../assets/Banners1/img3.jpg";
+import one from "../assets/Banners1/Aprl.jpg";
+import img2 from "../assets/Banners1/Conference_1.jpg";
+import img3 from "../assets/Banners1/Conference_2.jpg";
+import img4 from "../assets/Banners1/Conference_3.jpg";
 
 const Carousel = () => {
   const slides = [
@@ -18,10 +19,10 @@ const Carousel = () => {
     id: 3,
     image: img3,
   },
-  // {
-  //   id: 4,
-  //   image: 'https://i.ibb.co/S7dNQQHB/07.png',
-  // },
+  {
+    id: 4,
+    image: img4,
+  },
 ];
 
 

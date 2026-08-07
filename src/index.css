@@ -3,7 +3,7 @@
 @tailwind utilities;
 
 .home{
-    background-image: url('./assets/bg.jpg');
+    background-image: url('./assets/bg.webp');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -64,7 +64,7 @@
   }
 
   .banner{
-    background-image: url('./assets/bg.jpg');
+    background-image: url('./assets/bg.webp');
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -82,7 +82,7 @@
     width: 100vw;
   } */
   .banner{
-    background-image: url('./assets/section_banner1.png');
+    background-image: url('./assets/section_banner1.webp');
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -143,7 +143,7 @@
 }
 
 .about-banner {
-  background-image: url('./assets/banners/about.jpg');
+  background-image: url('./assets/banners/about.webp');
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -151,14 +151,14 @@
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
-  border-radius: 20px;
-  width: 90%;
-  margin-left: 5%;
+  border-radius: 0;
+  width: 100%;
+  
 }
 
 /* Contact Page Banner */
 .contact-banner {
-  background-image: url('./assets/banners/contact.jpg');
+  background-image: url('./assets/banners/contact.webp');
  display: flex;
   flex-direction: column;
   justify-content: center;
@@ -166,14 +166,14 @@
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
-  border-radius: 20px;
-  width: 90%;
-  margin-left: 5%;
+  border-radius: 0;
+  width: 100%;
+  
 }
 
 /* Event Partners Page Banner */
 .event-partners-banner {
-  background-image: url('./assets/banners/event_partners.jpg');
+  background-image: url('./assets/banners/event_partners.webp');
  display: flex;
   flex-direction: column;
   justify-content: center;
@@ -181,14 +181,14 @@
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
-  border-radius: 20px;
-  width: 90%;
-  margin-left: 5%;
+  border-radius: 0;
+  width: 100%;
+  
 }
 
 /* Executive Panel Page Banner */
 .executive-panel-banner {
-  background-image: url('./assets/banners/executive_panel.jpg');
+  background-image: url('./assets/banners/executive_panel.webp');
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -196,14 +196,14 @@
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
-  border-radius: 20px;
-  width: 90%;
-  margin-left: 5%;
+  border-radius: 0;
+  width: 100%;
+  
 }
 
 /* Orators Page Banner */
 .orators-banner {
-  background-image: url('./assets/banners/orators.jpg');
+  background-image: url('./assets/banners/orators.webp');
  display: flex;
   flex-direction: column;
   justify-content: center;
@@ -211,14 +211,14 @@
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
-  border-radius: 20px;
-  width: 90%;
-  margin-left: 5%;
+  border-radius: 0;
+  width: 100%;
+  
 }
 
 /* Register Page Banner */
 .register-banner {
-  background-image: url('./assets/banners/register.jpg');
+  background-image: url('./assets/banners/register.webp');
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -226,14 +226,14 @@
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
-  border-radius: 20px;
-  width: 90%;
-  margin-left: 5%;
+  border-radius: 0;
+  width: 100%;
+  
 }
 
 /* Schedule Page Banner */
 .schedule-banner {
-  background-image: url('./assets/banners/schedule.jpg');
+  background-image: url('./assets/banners/schedule.webp');
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -241,14 +241,14 @@
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
-  border-radius: 20px;
-  width: 90%;
-  margin-left: 5%;;
+  border-radius: 0;
+  width: 100%;
+  
 }
 
 /* Tracks Page Banner */
 .tracks-banner {
-  background-image: url('./assets/banners/track.jpg');
+  background-image: url('./assets/banners/track.webp');
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -256,13 +256,13 @@
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
-  border-radius: 20px;
-  width: 90%;
-  margin-left: 5%;
+  border-radius: 0;
+  width: 100%;
+  
 }
 
 .venue-banner{
-  background-image: url('./assets/banners/venue.jpg');
+  background-image: url('./assets/banners/venue.webp');
  display: flex;
   flex-direction: column;
   justify-content: center;
@@ -270,13 +270,13 @@
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
-  border-radius: 20px;
+  border-radius: 0;
   
 }
 
 
 .abstract-banner{
-background-image: url('./assets/banners/orators.jpg');
+background-image: url('./assets/banners/orators.webp');
  display: flex;
   flex-direction: column;
   justify-content: center;
@@ -284,13 +284,13 @@ background-image: url('./assets/banners/orators.jpg');
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
-  border-radius: 20px;
-  width: 90%;
-  margin-left: 5%;
+  border-radius: 0;
+  width: 100%;
+  
 }
 
 .brochure-banner{
-background-image: url('./assets/banners/event_partners.jpg');
+background-image: url('./assets/banners/event_partners.webp');
  display: flex;
   flex-direction: column;
   justify-content: center;
@@ -298,7 +298,7 @@ background-image: url('./assets/banners/event_partners.jpg');
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
-  border-radius: 20px;
-  width: 90%;
-  margin-left: 5%;
+  border-radius: 0;
+  width: 100%;
+  
 }

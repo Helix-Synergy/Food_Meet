@@ -14,7 +14,7 @@ const links = [
     id: 'brochure-download',
     icon: Download,
     label: 'Brochure download',
-    link: '/Food_Meet.pdf'
+    link: '/brochure-download'
   },
   {
     id: 'event-schedule',
@@ -75,27 +75,6 @@ const QuickLinks = () => {
         //     </a>
         //   );
         // }
-        if (id === 'brochure-download') {
-  return (
-    <a
-      key={id}
-      href="/Food_Meet.pdf"
-      download="Food_Meet.pdf"
-      target="_self"
-      rel="noopener noreferrer"
-      onMouseEnter={() => setHoveredId(id)}
-      onMouseLeave={() => setHoveredId(null)}
-      className={classes}
-    >
-      <div className="bg-one text-white p-3 flex items-center justify-center rounded-l-full">
-        <Icon className="h-5 w-5" />
-      </div>
-      <span className="ml-4 pr-4 text-sm font-medium text-gray-800 whitespace-nowrap">
-        {label}
-      </span>
-    </a>
-  );
-}
 
 
         // ✅ Normal routes

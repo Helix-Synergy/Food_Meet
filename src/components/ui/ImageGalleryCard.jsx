@@ -25,7 +25,7 @@ const ImageGalleryCard = () => {
       {/* Second row */}
       <div className="flex flex-wrap md:flex-nowrap gap-4 justify-center">
         <img
-          src="https://hiddenbarcelona.com/wp-content/uploads/2023/02/gothic-quarter-barcelona.jpeg"
+          src="https://hiddenbarcelona.com/wp-content/uploads/2023/02/gothic-quarter-barcelona.webp"
           alt="Image6"
           className="h-44 w-full sm:w-[60%] object-cover rounded-xl"
         />
@@ -35,7 +35,7 @@ const ImageGalleryCard = () => {
           className="h-44 w-full sm:w-40 object-cover rounded-xl"
         />
         <img
-          src="https://pohcdn.com/sites/default/files/styles/paragraph__hero_banner__hb_image__1880bp/public/hero_banner/Montjuic-fountain.jpg"
+          src="https://pohcdn.com/sites/default/files/styles/paragraph__hero_banner__hb_image__1880bp/public/hero_banner/Montjuic-fountain.webp"
           alt="Image5"
           className="h-44 w-full sm:w-40 object-cover rounded-xl"
         />

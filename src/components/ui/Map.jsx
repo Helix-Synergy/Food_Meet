@@ -43,7 +43,7 @@ export default function Map() {
 
         <div className="relative w-full h-[400px] rounded-2xl overflow-hidden shadow-md">
           <img
-            src="/valencia-map-placeholder.jpg"
+            src="/valencia-map-placeholder.webp"
             alt="Map of Valencia"
             className="w-full h-full object-cover"
           />

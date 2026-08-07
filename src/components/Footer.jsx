@@ -1,9 +1,32 @@
-import React from "react";
+import React, { useEffect, useState } from 'react';
 import { logo, socialLinks, WhatsAppIcon } from "../assets";
 import { ChevronRight, Mail, MapPin, Phone } from "lucide-react";
 import { Link } from "react-router-dom";
 
 const Footer = () => {
+
+  const [visitorStats, setVisitorStats] = useState({ totalVisits: 0, uniqueVisits: 0 });
+
+  useEffect(() => {
+    const fetchVisits = async () => {
+      try {
+        const API_BASE_URL = process.env.REACT_APP_BACKEND_URL || "https://backend-code-6vqy.onrender.com";
+        const response = await fetch(`${API_BASE_URL}/api/get-visits`, {
+            method: 'GET',
+            headers: { 'Content-Type': 'application/json' },
+            credentials: 'omit'
+        });
+        if (response.ok) {
+            const data = await response.json();
+            setVisitorStats({ totalVisits: data.totalVisits, uniqueVisits: data.uniqueVisits });
+        }
+      } catch (err) {
+        console.warn("Could not fetch visits:", err.message);
+      }
+    };
+    fetchVisits();
+  }, []);
+
   const nav_links = [
     { name: "About", link: "/about-world-foodmeet-conclave" },
     { name: "Executive Panel", link: "/executive-panel-members" },
@@ -16,7 +39,8 @@ const Footer = () => {
   ];
 
   return (
-    <div className="flex flex-col md:flex-row md:justify-between bg-black px-6 md:px-12 py-10 text-white gap-12 md:gap-0 rounded-t-3xl">
+    <div className="bg-black px-6 md:px-12 py-10 text-white rounded-t-3xl flex flex-col w-full">
+      <div className="flex flex-col md:flex-row md:justify-between gap-12 md:gap-0 w-full">
       {/* Grid 1 */}
       <div className="w-full md:w-1/4 gap-4 flex flex-col items-center text-center">
         {/* <h1 className="text-slate-100 text-3xl">FoodMeet</h1> */}
@@ -80,13 +104,9 @@ const Footer = () => {
           Get In Touch
         </h1>
         <div className="flex flex-col gap-4 text-slate-300">
-          {/* <div className="flex flex-row gap-2 items-center justify-center md:justify-start">
-            <Phone size="18" />
-            <p>+1757 656 7778</p>
-          </div> */}
           <div className="flex flex-row gap-2 items-center justify-center md:justify-start">
-            <WhatsAppIcon className="h-5 w-5 fill-slate-300" />
-            <p>+1-305-239-8055</p>
+            <Phone size="18" />
+            <p>+1-703-651-6096</p>
           </div>
           <div className="flex flex-row gap-2 items-center justify-center md:justify-start">
             <Mail size="18" />
@@ -110,6 +130,12 @@ const Footer = () => {
             Register
           </a>
         </div>
+      </div>
+      </div>
+      {/* Visitor Stats */}
+      <div className="w-full mt-8 pt-4 border-t border-accent/50 flex flex-col md:flex-row justify-between items-center text-sm text-gray-300">
+        <p>Total Visitors: {visitorStats.totalVisits}</p>
+        <p>Live Visitors: {visitorStats.uniqueVisits}</p>
       </div>
     </div>
   );

@@ -378,7 +378,7 @@ const tracks = [
 
   {
     image:
-      "https://static.vecteezy.com/system/resources/thumbnails/009/274/856/small/world-concept-and-resources-water-water-management-globe-floating-on-water-free-photo.jpg",
+      "https://static.vecteezy.com/system/resources/thumbnails/009/274/856/small/world-concept-and-resources-water-water-management-globe-floating-on-water-free-photo.webp",
     title: "Water Resource Management",
     // subtitle: "Water Security",
     description: (
@@ -439,7 +439,7 @@ const tracks = [
 
   {
     image:
-      "https://thumbs.dreamstime.com/b/microbiome-functions-as-living-ecosystem-human-body-microbiome-functions-as-living-ecosystem-391856089.jpg",
+      "https://thumbs.dreamstime.com/b/microbiome-functions-as-living-ecosystem-human-body-microbiome-functions-as-living-ecosystem-391856089.webp",
     title: "Microbiomes & Ecosystem Functioning",
     // subtitle: "Soil & Microbes",
     description: (

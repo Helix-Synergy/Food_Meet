@@ -1,31 +1,31 @@
-import logo from './logo.jpeg'
-import bg from "./bg.jpg";
+import logo from './logo.webp'
+import bg from "./bg.webp";
 import whatsapp from "./logo-whatsapp.svg";
 import Reddit from "./reddit.svg";
 
 import { HeartPulse, Phone } from "lucide-react";
-import about_img from "./about_img.jpg";
+import about_img from "./about_img.webp";
 
-import FoodSecurity from "./tracks/Food Security.jpeg";
-import SustainableFood from "./tracks/Sustainable Food Packaging.jpeg";
-import SmartIrrigationSystems from "./tracks/Smart Irrigation Systems.jpeg";
-import FoodScienceTechnology from "./tracks/Food Science & Technology 1.jpeg";
-import AIFoodProduction from "./tracks/AI in Food Production.jpeg";
-import PlantProteins from "./tracks/Plant-Based Proteins.jpeg";
-import CropSciences from "./tracks/Crop Sciences.jpeg";
-import FoodSafety from "./tracks/Food Safety & Traceability.jpeg";
-import FoodWasteReduction from "./tracks/Food Waste Reduction.jpeg";
-import SoilScience from "./tracks/Soil Science.jpeg";
-import Nutraceuticals from "./tracks/Nutraceuticals.jpeg";
-import ClimateAgriculture from "./tracks/Climate- Smart Agriculture.jpeg";
-import FoodToxicology from "./tracks/Food Toxicology.jpeg";
-import PersonalizedNutrition from "./tracks/Personalized Nutrition 1.jpeg";
-import Agroforestry from "./tracks/Agroforestry.jpeg";
-import IntegratedManagement from "./tracks/Integrated Pest Management.jpeg";
-import AgricultureAquaculture from "./tracks/Agriculture and Aquaculture.jpeg";
-import DairyProduction from "./tracks/Dairy Production.jpeg";
-import Horticulture from "./tracks/Horticulture (1).jpeg";
-import Agrobiodeversity from "./tracks/Agrobiodiversity.jpeg";
+import FoodSecurity from "./tracks/Food Security.webp";
+import SustainableFood from "./tracks/Sustainable Food Packaging.webp";
+import SmartIrrigationSystems from "./tracks/Smart Irrigation Systems.webp";
+import FoodScienceTechnology from "./tracks/Food Science & Technology 1.webp";
+import AIFoodProduction from "./tracks/AI in Food Production.webp";
+import PlantProteins from "./tracks/Plant-Based Proteins.webp";
+import CropSciences from "./tracks/Crop Sciences.webp";
+import FoodSafety from "./tracks/Food Safety & Traceability.webp";
+import FoodWasteReduction from "./tracks/Food Waste Reduction.webp";
+import SoilScience from "./tracks/Soil Science.webp";
+import Nutraceuticals from "./tracks/Nutraceuticals.webp";
+import ClimateAgriculture from "./tracks/Climate- Smart Agriculture.webp";
+import FoodToxicology from "./tracks/Food Toxicology.webp";
+import PersonalizedNutrition from "./tracks/Personalized Nutrition 1.webp";
+import Agroforestry from "./tracks/Agroforestry.webp";
+import IntegratedManagement from "./tracks/Integrated Pest Management.webp";
+import AgricultureAquaculture from "./tracks/Agriculture and Aquaculture.webp";
+import DairyProduction from "./tracks/Dairy Production.webp";
+import Horticulture from "./tracks/Horticulture (1).webp";
+import Agrobiodeversity from "./tracks/Agrobiodiversity.webp";
 
 import {
   Facebook,
@@ -38,15 +38,15 @@ import {
   Send,
 } from "lucide-react";
 import { FaXTwitter } from "react-icons/fa6";
-// import FoodSecurity from "../assets/tracks/Food Security.jpeg";
+// import FoodSecurity from "../assets/tracks/Food Security.webp";
 
 
-import silver from "./badges/2.png";
-import gold from "./badges/3.png";
-import platinum from "./badges/4.png";
-import exhibitor from './badges/1.png'
+import silver from "./badges/2.webp";
+import gold from "./badges/3.webp";
+import platinum from "./badges/4.webp";
+import exhibitor from './badges/1.webp'
 
-import section_banner from "./section_banner.jpg";
+import section_banner from "./section_banner.webp";
 import { 
   CupStraw, 
   Beaker, 
@@ -70,26 +70,26 @@ import {
   Globe
 } from 'react-bootstrap-icons';
 // --------------------------------------icons-----------------
-import img1 from "../assets/tracks/img1.png"
-import img2 from "../assets/tracks/img2.png"
-import img3 from "../assets/tracks/img3.png"
-import img4 from "../assets/tracks/img4.png"
-import img5 from "../assets/tracks/img5.png"
-import img6 from "../assets/tracks/img6.png"
-import img7 from "../assets/tracks/img7.png"
-import img8 from "../assets/tracks/img8.png"
-import img9 from "../assets/tracks/img9.png"
-import img10 from "../assets/tracks/img10.png"
-import img11 from "../assets/tracks/img11.png"
-import img12 from "../assets/tracks/img12.png"
-import img13 from "../assets/tracks/img13.png"
-import img14 from "../assets/tracks/img14.png"
-import img15 from "../assets/tracks/img15.png"
-import img16 from "../assets/tracks/img16.png"
-import img17 from "../assets/tracks/img17.png"
-import img18 from "../assets/tracks/img18.png"
-import img19 from "../assets/tracks/img19.png"
-import img20 from "../assets/tracks/img20.png"
+import img1 from "../assets/tracks/img1.webp"
+import img2 from "../assets/tracks/img2.webp"
+import img3 from "../assets/tracks/img3.webp"
+import img4 from "../assets/tracks/img4.webp"
+import img5 from "../assets/tracks/img5.webp"
+import img6 from "../assets/tracks/img6.webp"
+import img7 from "../assets/tracks/img7.webp"
+import img8 from "../assets/tracks/img8.webp"
+import img9 from "../assets/tracks/img9.webp"
+import img10 from "../assets/tracks/img10.webp"
+import img11 from "../assets/tracks/img11.webp"
+import img12 from "../assets/tracks/img12.webp"
+import img13 from "../assets/tracks/img13.webp"
+import img14 from "../assets/tracks/img14.webp"
+import img15 from "../assets/tracks/img15.webp"
+import img16 from "../assets/tracks/img16.webp"
+import img17 from "../assets/tracks/img17.webp"
+import img18 from "../assets/tracks/img18.webp"
+import img19 from "../assets/tracks/img19.webp"
+import img20 from "../assets/tracks/img20.webp"
 
 
 // 
@@ -229,65 +229,65 @@ export {
 //     name: "Food Science & Technology",
 //     icon:""
 //   },
-//   { name: "Crop Sciences", icon: "https://i.ibb.co/Q00qkQz/crop-science.png" },
-//   { name: "Soil Science", icon: "https://i.ibb.co/gLGdj30d/soil-science.png" },
+//   { name: "Crop Sciences", icon: "https://i.ibb.co/Q00qkQz/crop-science.webp" },
+//   { name: "Soil Science", icon: "https://i.ibb.co/gLGdj30d/soil-science.webp" },
 //   {
 //     name: "Food Toxicology",
-//     icon: "https://i.ibb.co/rKbk0FRn/food-toxicology.png",
+//     icon: "https://i.ibb.co/rKbk0FRn/food-toxicology.webp",
 //   },
 //   {
 //     name: "Integrated Pest Management",
-//     icon: "https://i.ibb.co/fVX2f4t7/integrated-pest-management.png",
+//     icon: "https://i.ibb.co/fVX2f4t7/integrated-pest-management.webp",
 //   },
 //   {
 //     name: "Sustainable Food Packaging",
-//     icon: "https://i.ibb.co/m5NWRBsS/sustainable-food-packaging.png",
+//     icon: "https://i.ibb.co/m5NWRBsS/sustainable-food-packaging.webp",
 //   },
 //   {
 //     name: "AI in Food Production",
-//     icon: "https://i.ibb.co/tTLctFFL/ai-food-production.png",
+//     icon: "https://i.ibb.co/tTLctFFL/ai-food-production.webp",
 //   },
 //   {
 //     name: "Food Safety & Traceability",
-//     icon: "https://i.ibb.co/gcp3H4z/food-Safety.png",
+//     icon: "https://i.ibb.co/gcp3H4z/food-Safety.webp",
 //   },
 //   {
 //     name: "Nutraceuticals",
-//     icon: "https://i.ibb.co/b5p0BHy0/nutraceuticals.png",
+//     icon: "https://i.ibb.co/b5p0BHy0/nutraceuticals.webp",
 //   },
 //   {
 //     name: "Personalized Nutrition",
-//     icon: "https://i.ibb.co/WN3StMmc/personalized-nutrition.png",
+//     icon: "https://i.ibb.co/WN3StMmc/personalized-nutrition.webp",
 //   },
 //   {
 //     name: "Agriculture and Aquaculture",
-//     icon: "https://i.ibb.co/S4TqPLTL/agriculture-aquaculture.png",
+//     icon: "https://i.ibb.co/S4TqPLTL/agriculture-aquaculture.webp",
 //   },
 //   {
 //     name: "Smart Irrigation Systems",
-//     icon: "https://i.ibb.co/2YqSdm8M/smart-irrigation.png",
+//     icon: "https://i.ibb.co/2YqSdm8M/smart-irrigation.webp",
 //   },
 //   {
 //     name: "Plant-Based Proteins",
-//     icon: "https://i.ibb.co/MDQrp937/plant-based-proteins.png",
+//     icon: "https://i.ibb.co/MDQrp937/plant-based-proteins.webp",
 //   },
 //   {
 //     name: "Food Waste Reduction",
-//     icon: "https://i.ibb.co/2149vnvc/food-waste.png",
+//     icon: "https://i.ibb.co/2149vnvc/food-waste.webp",
 //   },
 //   {
 //     name: "Climate- Smart Agriculture",
-//     icon: "https://i.ibb.co/zHS3BcBr/climate-smart-agriculture.png",
+//     icon: "https://i.ibb.co/zHS3BcBr/climate-smart-agriculture.webp",
 //   },
-//   { name: "Agroforestry", icon: "https://i.ibb.co/ns2tWG4G/agroforestry.png" },
+//   { name: "Agroforestry", icon: "https://i.ibb.co/ns2tWG4G/agroforestry.webp" },
 //   {
 //     name: "Dairy Production",
-//     icon: "https://i.ibb.co/4RMBx3MD/dairy-production.png",
+//     icon: "https://i.ibb.co/4RMBx3MD/dairy-production.webp",
 //   },
-//   { name: "Horticulture", icon: "https://i.ibb.co/DgHQDD8H/horticulture.png" },
+//   { name: "Horticulture", icon: "https://i.ibb.co/DgHQDD8H/horticulture.webp" },
 //   {
 //     name: "Agrobiodeversity",
-//     icon: "https://i.ibb.co/5ZCb8dL/agrobiodiversity.png",
+//     icon: "https://i.ibb.co/5ZCb8dL/agrobiodiversity.webp",
 //   },
 // ];
 
@@ -478,7 +478,7 @@ export const schedule_plan3 = [
 export const venueImages = [
   {
     id: 1,
-    src: "https://www.valencia-cityguide.com/images/attractions4/cac-vlc.jpg", // City of Arts and Sciences at Sunset
+    src: "https://www.valencia-cityguide.com/images/attractions4/cac-vlc.webp", // City of Arts and Sciences at Sunset
     alt: "City of Arts and Sciences",
   },
   {
@@ -488,25 +488,25 @@ export const venueImages = [
   },
   {
     id: 3,
-    src: "https://valencia.lbsfilm.at/content/images/size/w2000/2017/11/LBS_BlogOceano_048.jpg", // Oceanogràfic Aquarium
+    src: "https://valencia.lbsfilm.at/content/images/size/w2000/2017/11/LBS_BlogOceano_048.webp", // Oceanogràfic Aquarium
     alt: "Oceanogràfic",
   },
   {
     id: 4,
-    src: "https://cdn.dreampropertiesvalencia.com/2024/12/district-el-carmen-in-valencia.jpg", // El Carmen District
+    src: "https://cdn.dreampropertiesvalencia.com/2024/12/district-el-carmen-in-valencia.webp", // El Carmen District
     alt: "El Carmen District",
   },
 ];
 
 // export const PartnerImageList = [
 //   { id: 1, name: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS9F_PlhWg_-goFeAb__gBJ7HKuALbAYLl4Rg&s" },
-//   { id: 2, name: "https://png.pngtree.com/thumb_back/fh260/background/20241007/pngtree-food-harvest-agricultural-gold-rural-bread-cereal-grain-landscape-growth-summer-image_16290734.jpg" },
-//   { id: 3, name: "https://static.vecteezy.com/system/resources/thumbnails/071/338/275/small/a-table-with-vegetables-and-other-fruits-photo.jpg" },
+//   { id: 2, name: "https://png.pngtree.com/thumb_back/fh260/background/20241007/pngtree-food-harvest-agricultural-gold-rural-bread-cereal-grain-landscape-growth-summer-image_16290734.webp" },
+//   { id: 3, name: "https://static.vecteezy.com/system/resources/thumbnails/071/338/275/small/a-table-with-vegetables-and-other-fruits-photo.webp" },
 //   { id: 4, name: "https://www.shutterstock.com/shutterstock/videos/3535392427/thumb/1.jpg?ip=x480" },
 //   { id: 5, name: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQA3DO2GxOd4gA3QZE8KaJxiLr6L0n_urguEw&s" },
-//   { id: 6, name: "https://i.pinimg.com/736x/cb/74/63/cb746371ddf9cb3a317957538a3dc836.jpg" },
+//   { id: 6, name: "https://i.pinimg.com/736x/cb/74/63/cb746371ddf9cb3a317957538a3dc836.webp" },
 //   { id: 7, name: "https://www.shutterstock.com/shutterstock/videos/3833711813/thumb/1.jpg?ip=x480" },
-//   { id: 8, name: "https://thumbs.dreamstime.com/b/young-potatoes-growing-field-connected-to-drip-irrigation-agriculture-landscape-rural-plantations-farmland-farming-147832280.jpg" },
+//   { id: 8, name: "https://thumbs.dreamstime.com/b/young-potatoes-growing-field-connected-to-drip-irrigation-agriculture-landscape-rural-plantations-farmland-farming-147832280.webp" },
 // ];
 export const PartnerImageList = [
    { id: 1, name: one },
